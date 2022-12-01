@@ -14,6 +14,13 @@
 
 char	*get_next_line(int fd)
 {
+	t_list	*first
+	char	*buffer;
 
-	return (0);
+	buffer = (char *)malloc(BUFFER_SIZE + 1 * sizeof(char));
+	if (!buffer)
+		return (0);
+	read(fd, buffer, BUFFER_SIZE);
+	buffer[BUFFER_SIZE] = 0;
+	return (buffer);
 }

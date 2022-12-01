@@ -1,0 +1,23 @@
+label,size,member type,member name,member description,value,offset from beginning of struct
+whole struct,216,,,
+stdin,8,int,_flags,no description,-72540024,0
+stdin,8,char *,_IO_read_ptr,Current read pointer,(nil),8
+stdin,8,char *,_IO_read_end,End of get area,(nil),16
+stdin,8,char *,_IO_read_base,Start of putback+get area,(nil),24
+stdin,8,char *,_IO_write_base,Start of put area,(nil),32
+stdin,8,char *,_IO_write_ptr,Current put pointer,(nil),40
+stdin,8,char *,_IO_write_end,End of put area,(nil),48
+stdin,8,char *,_IO_buf_base,Start of reserve area,(nil),56
+stdin,8,char *,_IO_buf_end,End of reserve area,(nil),64
+stdin,8,char *,_IO_save_base,Pointer to start of non-current get area,(nil),72
+stdin,8,char *,_IO_backup_base,Pointer to first valid character of backup area,(nil),80
+stdin,8,char *,_IO_save_end,Pointer to end of non-current get area,(nil),88
+stdin,8,struct _IO_marker *,_markers,no description,(nil),96
+stdin,8,struct _IO_FILE *,_chain,no description,(nil),104
+stdin,4,int,_fileno,no description,0,112
+stdin,4,int,_flags2,no description,0,116
+stdin,8,_IO_off_t,_old_offset,This used to be _offset but it's too small,-1,120
+stdin,2,unsigned short,_cur_column,no description,0,128
+stdin,8,signed char,_vtable_offset,no description,0,130
+stdin,8,char,_shortbuf,no description,,131
+stdin,8,_IO_lock_t *,_lock,no description,0x7fdac7a0fa80,136
