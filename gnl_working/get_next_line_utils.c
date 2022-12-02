@@ -77,6 +77,7 @@ int	make_ret(int fd, char **ret, char *buf, int offset)
 {
 	unsigned long	pos;
 	char			*ret2;
+	ssize_t			r_size;
 
 	pos = 0;
 	if (offset)
@@ -86,20 +87,27 @@ int	make_ret(int fd, char **ret, char *buf, int offset)
 		else
 		{
 			ret2 = ft_strdupncat(*ret, buf + offset, ft_strlen(buf + offset));
-			if (!read(fd, buf, BUFFER_SIZE))
+			r_size = read(fd, buf, BUFFER_SIZE);
+			if (!r_size || r_size == -1)
 				return (0);
+			if (r_size < BUFFER_SIZE)
+				buf[r_size] = 0;
+			offset = 0;
 			if (newline_in_buf(buf + offset))
 				pos = (unsigned long) newline_in_buf(buf + offset) - (unsigned long) buf;
 			free(*ret);
 			*ret = ret2;
-			offset = 0;
 		}
 	}
 	while (!pos)
 	{
 		ret2 = ft_strdupncat(*ret, buf + offset, ft_strlen(buf + offset));
-		if (!read(fd, buf, BUFFER_SIZE))
+		r_size = read(fd, buf, BUFFER_SIZE);
+		if (!r_size || r_size == -1)
 			return (0);
+		if (r_size < BUFFER_SIZE)
+			buf[r_size] = 0;
+		offset = 0;
 		if (newline_in_buf(buf + offset))
 			pos = (unsigned long) newline_in_buf(buf + offset) - (unsigned long) buf;
 		free(*ret);

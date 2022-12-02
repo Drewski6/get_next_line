@@ -845,3 +845,83 @@ make_ret (fd=3, ret=0x7fffffffdb80, buf=0x55555555a2a0 " struct\nwhole struct,21
 $1 = 0x55555555a2a0 " struct\nwhole struct,216,,,\nstdin,8,int,_f"
 $2 = 0x55555555a820 "stdin,8,int,_f"
 Reading symbols from gnl_test...
+Reading symbols from gnl_test...
+Temporary breakpoint 1 at 0x1215: file gnl_test.c, line 14.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at gnl_test.c:14
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:16
+$1 = 0x55555555a2a0 "label,size,member type,member name,member description,value,offset from beginning of struct\nwhole st"
+Reading symbols from gnl_test...
+Temporary breakpoint 1 at 0x1215: file gnl_test.c, line 14.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at gnl_test.c:14
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:16
+make_ret (fd=3, ret=0x7fffffffdb80, buf=0x55555555a2a0 "label,size,member type,member name,member description,value,offset from beginning of struct\nwhole st", offset=92) at ../gnl_working/get_next_line_utils.c:81
+Undefined command: "ls".  Try "help".
+$1 = 0
+$2 = 92
+$3 = 0x55555555a310 "whole st"
+$4 = 0x55555555a2a0 "label,size,member type,member name,member description,value,offset from beginning of struct\nwhole st"
+$5 = 0x55555555a2a0 "ruct,216,,,\nstdin,8,int,_flags,no description,-72540024,0\nstdin,8,char *,_IO_read_ptr,Current read p"
+Reading symbols from gnl_test...
+Temporary breakpoint 1 at 0x1215: file gnl_test.c, line 14.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at gnl_test.c:14
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:16
+make_ret (fd=3, ret=0x7fffffffdb80, buf=0x55555555a2a0 ",8,_IO_lock_t *,_lock,no description,0x7f3635d48a80,136\nn,8,char,_shortbuf,no description,,131\nstdin", offset=56) at ../gnl_working/get_next_line_utils.c:81
+Reading symbols from gnl_test...
+Temporary breakpoint 1 at 0x1215: file gnl_test.c, line 14.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at gnl_test.c:14
+
+Program received signal SIGINT, Interrupt.
+0x00007ffff7e94992 in __GI___libc_read (fd=-1, buf=0x7ffff73f3010, nbytes=10000000) at ../sysdeps/unix/sysv/linux/read.c:26
+Reading symbols from gnl_test...
+Temporary breakpoint 1 at 0x1215: file gnl_test.c, line 14.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at gnl_test.c:14
+get_next_line (fd=-1) at ../gnl_working/get_next_line.c:16
+make_ret (fd=-1, ret=0x7fffffffdb80, buf=0x7ffff73f3010 "", offset=0) at ../gnl_working/get_next_line_utils.c:82
+$1 = 0x7ffff73f3010 ""
+$2 = 0x55555555a2a0 ""
+$3 = -1
+$4 = 0x7ffff73f3010 ""
+No symbol "BUFFER_SIZE" in current context.
+$5 = 0x7ffff73f3010 ""
+$6 = 0x55555555a2a0 ""
+Reading symbols from gnl_test...
+Temporary breakpoint 1 at 0x1215: file gnl_test.c, line 14.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at gnl_test.c:14
+Reading symbols from gnl_test...
+Temporary breakpoint 1 at 0x1215: file gnl_test.c, line 14.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at gnl_test.c:14
+Reading symbols from gnl_test...
+Temporary breakpoint 1 at 0x1215: file gnl_test.c, line 14.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at gnl_test.c:14
