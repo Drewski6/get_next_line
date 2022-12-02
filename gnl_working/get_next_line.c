@@ -14,23 +14,17 @@
 
 char	*get_next_line(int fd)
 {
-	t_list	*first
-	char	*buffer;
-	char	*return_string;
+	static char		*buf;
+	char			*ret;
+	static int		fd_table[1024];
 
-	first = 0;
-	buffer = (char *)malloc(BUFFER_SIZE + 1 * sizeof(char));
-	if (!buffer)
+	ret = 0;
+	if (!buf)
+		buf = (char *)malloc((BUFFER_SIZE + 1) * sizeof(char));
+	if (!buf)
 		return (0);
-	read(fd, buffer, BUFFER_SIZE);
-	buffer[BUFFER_SIZE] = 0;
-	while (!new_line_in_buffer(buffer))
-	{
-		add_chunk(&first, fd, buffer);
-	}
-	return_string = fill_return(first);
-	if (!return_string)
+	fd_table[fd] = make_ret(fd, &ret, buf, fd_table[fd]);
+	if (!ret)
 		return (0);
-	free(buffer);
-	return (buffer);
+	return (ret);
 }

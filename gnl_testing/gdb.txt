@@ -1,0 +1,847 @@
+Reading symbols from a.out...
+Temporary breakpoint 1 at 0x1171: file fd_test.c, line 12.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/a.out 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at fd_test.c:12
+print_file_struct_properties (label=0x555555556004 "stdin", p_file=0x7ffff7f99aa0 <_IO_2_1_stdin_>) at fd_examine.c:5
+0x7fffffffdba0:	0xf7f99aa0	0x00007fff	0x55556004	0x00005555
+0x7fffffffdbb0:	0xffffdbc0	0x00007fff	0x5555518a	0x00005555
+0x7fffffffdbc0:	0x00000001	0x00000000
+Stack level 0, frame at 0x7fffffffdbc0:
+ rip = 0x55555555529a in print_file_struct_properties (fd_examine.c:11); saved rip = 0x55555555518a
+ called by frame at 0x7fffffffdbd0
+ source language c.
+ Arglist at 0x7fffffffdbb0, args: label=0x555555556004 "stdin", p_file=0x7ffff7f99aa0 <_IO_2_1_stdin_>
+ Locals at 0x7fffffffdbb0, Previous frame's sp is 0x7fffffffdbc0
+ Saved registers:
+  rbp at 0x7fffffffdbb0, rip at 0x7fffffffdbb8
+No locals.
+label = 0x555555556004 "stdin"
+p_file = 0x7ffff7f99aa0 <_IO_2_1_stdin_>
+Reading symbols from stack_frame...
+Temporary breakpoint 1 at 0x1148: file stack_frame.c, line 10.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/stack_frame 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at stack_frame.c:10
+#0  main () at stack_frame.c:10
+Stack level 0, frame at 0x7fffffffdbc0:
+ rip = 0x555555555148 in main (stack_frame.c:10); saved rip = 0x7ffff7da9d90
+ source language c.
+ Arglist at 0x7fffffffdbb0, args: 
+ Locals at 0x7fffffffdbb0, Previous frame's sp is 0x7fffffffdbc0
+ Saved registers:
+  rbp at 0x7fffffffdbb0, rip at 0x7fffffffdbb8
+foo (n=0) at stack_frame.c:3
+Stack level 0, frame at 0x7fffffffdba0:
+ rip = 0x555555555134 in foo (stack_frame.c:3); saved rip = 0x555555555159
+ called by frame at 0x7fffffffdbc0
+ source language c.
+ Arglist at 0x7fffffffdb90, args: n=0
+ Locals at 0x7fffffffdb90, Previous frame's sp is 0x7fffffffdba0
+ Saved registers:
+  rbp at 0x7fffffffdb90, rip at 0x7fffffffdb98
+Not confirmed.
+Stack level 0, frame at 0x7fffffffdba0:
+ rip = 0x55555555513a in foo (stack_frame.c:4); saved rip = 0x555555555159
+ called by frame at 0x7fffffffdbc0
+ source language c.
+ Arglist at 0x7fffffffdb90, args: n=0
+ Locals at 0x7fffffffdb90, Previous frame's sp is 0x7fffffffdba0
+ Saved registers:
+  rbp at 0x7fffffffdb90, rip at 0x7fffffffdb98
+main () at stack_frame.c:12
+__libc_start_call_main (main=main@entry=0x55555555513c <main>, argc=argc@entry=1, argv=argv@entry=0x7fffffffdcc8) at ../sysdeps/nptl/libc_start_call_main.h:74
+[Inferior 1 (process 48653) exited normally]
+No breakpoint at this line.
+No stack.
+Temporary breakpoint 2 at 0x555555555148: file stack_frame.c, line 10.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/stack_frame 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 2, main () at stack_frame.c:10
+#0  main () at stack_frame.c:10
+        n = 0
+foo (n=0) at stack_frame.c:3
+#0  foo (n=0) at stack_frame.c:3
+No locals.
+#1  0x0000555555555159 in main () at stack_frame.c:11
+        n = 0
+No symbol "sp" in current context.
+No symbol "sp" in current context.
+$1 = (void *) 0x7fffffffdb90
+0x7fffffffdb90:	0xffffdbb0	0x00007fff	0x55555159	0x00005555
+0x7fffffffdba0:	0x00000000	0x00000000	0x00000000	0x00000000
+0x7fffffffdbb0:	0x00000001	0x00000000	0xf7da9d90	0x00007fff
+0x7fffffffdbc0:	0x00000000	0x00000000	0x5555513c	0x00005555
+0x7fffffffdbd0:	0x00000000	0x00000001	0xffffdcc8	0x00007fff
+0x7fffffffdbe0:	0x00000000	0x00000000	0xb911eac7	0x6a767cc1
+0x7fffffffdbf0:	0xffffdcc8	0x00007fff	0x5555513c	0x00005555
+0x7fffffffdc00:	0x55557df8	0x00005555	0xf7ffd040	0x00007fff
+0x7fffffffdc10:	0x0e93eac7	0x9589833e	0x839beac7	0x95899374
+0x7fffffffdc20:	0x00000000	0x00000000	0x00000000	0x00000000
+$2 = void
+Stack level 0, frame at 0x7fffffffdba0:
+ rip = 0x555555555134 in foo (stack_frame.c:3); saved rip = 0x555555555159
+ called by frame at 0x7fffffffdbc0
+ source language c.
+ Arglist at 0x7fffffffdb90, args: n=0
+ Locals at 0x7fffffffdb90, Previous frame's sp is 0x7fffffffdba0
+ Saved registers:
+  rbp at 0x7fffffffdb90, rip at 0x7fffffffdb98
+0x7fffffffdb90:	0xffffdbb0	0x00007fff	0x55555159	0x00005555
+0x7fffffffdba0:	0x00000000	0x00000000	0x00000000	0x00000000
+0x7fffffffdbb0:	0x00000001	0x00000000	0xf7da9d90	0x00007fff
+0x7fffffffdbc0:	0x00000000	0x00000000	0x5555513c	0x00005555
+0x7fffffffdbd0:	0x00000000	0x00000001	0xffffdcc8	0x00007fff
+0x7fffffffdbe0:	0x00000000	0x00000000	0xb911eac7	0x6a767cc1
+0x7fffffffdbf0:	0xffffdcc8	0x00007fff	0x5555513c	0x00005555
+0x7fffffffdc00:	0x55557df8	0x00005555	0xf7ffd040	0x00007fff
+0x7fffffffdc10:	0x0e93eac7	0x9589833e	0x839beac7	0x95899374
+0x7fffffffdc20:	0x00000000	0x00000000	0x00000000	0x00000000
+Stack level 0, frame at 0x7fffffffdba0:
+ rip = 0x555555555134 in foo (stack_frame.c:3); saved rip = 0x555555555159
+ called by frame at 0x7fffffffdbc0
+ source language c.
+ Arglist at 0x7fffffffdb90, args: n=0
+ Locals at 0x7fffffffdb90, Previous frame's sp is 0x7fffffffdba0
+ Saved registers:
+  rbp at 0x7fffffffdb90, rip at 0x7fffffffdb98
+n = 0
+No locals.
+0x7fffffffdb90:	0xffffdbb0	0x00007fff	0x55555159	0x00005555
+0x7fffffffdba0:	0x00000000	0x00000000	0x00000000	0x00000000
+0x7fffffffdbb0:	0x00000001	0x00000000	0xf7da9d90	0x00007fff
+0x7fffffffdbc0:	0x00000000	0x00000000	0x5555513c	0x00005555
+0x7fffffffdbd0:	0x00000000	0x00000001	0xffffdcc8	0x00007fff
+0x7fffffffdbe0:	0x00000000	0x00000000	0xb911eac7	0x6a767cc1
+0x7fffffffdbf0:	0xffffdcc8	0x00007fff	0x5555513c	0x00005555
+0x7fffffffdc00:	0x55557df8	0x00005555	0xf7ffd040	0x00007fff
+0x7fffffffdc10:	0x0e93eac7	0x9589833e	0x839beac7	0x95899374
+0x7fffffffdc20:	0x00000000	0x00000000	0x00000000	0x00000000
+main () at stack_frame.c:12
+Stack level 0, frame at 0x7fffffffdbc0:
+ rip = 0x55555555515c in main (stack_frame.c:12); saved rip = 0x7ffff7da9d90
+ source language c.
+ Arglist at 0x7fffffffdbb0, args: 
+ Locals at 0x7fffffffdbb0, Previous frame's sp is 0x7fffffffdbc0
+ Saved registers:
+  rbp at 0x7fffffffdbb0, rip at 0x7fffffffdbb8
+0x7fffffffdba0:	0x00000000	0x00000000	0x00000000	0x00000001
+0x7fffffffdbb0:	0x00000001	0x00000000	0xf7da9d90	0x00007fff
+0x7fffffffdbc0:	0x00000000	0x00000000	0x5555513c	0x00005555
+0x7fffffffdbd0:	0x00000000	0x00000001	0xffffdcc8	0x00007fff
+0x7fffffffdbe0:	0x00000000	0x00000000	0xb911eac7	0x6a767cc1
+0x7fffffffdbf0:	0xffffdcc8	0x00007fff	0x5555513c	0x00005555
+0x7fffffffdc00:	0x55557df8	0x00005555	0xf7ffd040	0x00007fff
+0x7fffffffdc10:	0x0e93eac7	0x9589833e	0x839beac7	0x95899374
+0x7fffffffdc20:	0x00000000	0x00000000	0x00000000	0x00000000
+0x7fffffffdc30:	0x00000000	0x00000000	0x00000000	0x00000000
+Reading symbols from stack_frame...
+Temporary breakpoint 1 at 0x1148: file stack_frame.c, line 10.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/stack_frame 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at stack_frame.c:10
+$1 = (void *) 0x7fffffffdba0
+$2 = -9312
+$3 = -9296
+$4 = -9296
+$5 = (void *) 0x7fffffffdbb0
+$6 = void
+$7 = void
+$8 = void
+$9 = void
+$10 = void
+$11 = void
+$12 = void
+$13 = void
+$14 = void
+$15 = void
+$16 = void
+$17 = void
+$18 = void
+Undefined command: "$register".  Try "help".
+rax            0x55555555513c      93824992235836
+rbx            0x0                 0
+rcx            0x555555557df8      93824992247288
+rdx            0x7fffffffdcd8      140737488346328
+rsi            0x7fffffffdcc8      140737488346312
+rdi            0x1                 1
+rbp            0x7fffffffdbb0      0x7fffffffdbb0
+rsp            0x7fffffffdba0      0x7fffffffdba0
+r8             0x7ffff7f9af10      140737353723664
+r9             0x7ffff7fc9040      140737353912384
+r10            0x7ffff7fc3908      140737353890056
+r11            0x7ffff7fde680      140737354000000
+r12            0x7fffffffdcc8      140737488346312
+r13            0x55555555513c      93824992235836
+r14            0x555555557df8      93824992247288
+r15            0x7ffff7ffd040      140737354125376
+rip            0x555555555148      0x555555555148 <main+12>
+eflags         0x206               [ PF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+k0             0x800000            8388608
+k1             0x800               2048
+k2             0x0                 0
+k3             0x0                 0
+k4             0x0                 0
+k5             0x0                 0
+k6             0x0                 0
+k7             0x0                 0
+Undefined command: "".  Try "help".
+Undefined command: "".  Try "help".
+Undefined command: "".  Try "help".
+Undefined command: "".  Try "help".
+rax            0x55555555513c      93824992235836
+rbx            0x0                 0
+rcx            0x555555557df8      93824992247288
+rdx            0x7fffffffdcd8      140737488346328
+rsi            0x7fffffffdcc8      140737488346312
+rdi            0x1                 1
+rbp            0x7fffffffdbb0      0x7fffffffdbb0
+rsp            0x7fffffffdba0      0x7fffffffdba0
+r8             0x7ffff7f9af10      140737353723664
+r9             0x7ffff7fc9040      140737353912384
+r10            0x7ffff7fc3908      140737353890056
+r11            0x7ffff7fde680      140737354000000
+r12            0x7fffffffdcc8      140737488346312
+r13            0x55555555513c      93824992235836
+r14            0x555555557df8      93824992247288
+r15            0x7ffff7ffd040      140737354125376
+rip            0x555555555148      0x555555555148 <main+12>
+eflags         0x206               [ PF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+k0             0x800000            8388608
+k1             0x800               2048
+k2             0x0                 0
+k3             0x0                 0
+k4             0x0                 0
+k5             0x0                 0
+k6             0x0                 0
+k7             0x0                 0
+Reading symbols from stack_frame...
+Temporary breakpoint 1 at 0x1148: file stack_frame.c, line 10.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/stack_frame 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at stack_frame.c:10
+No symbol "enable" in current context.
+Already logging to gdb.txt.
+Please answer y or n.
+Temporary breakpoint 2 at 0x555555555148: file stack_frame.c, line 10.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/stack_frame 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 2, main () at stack_frame.c:10
+rax            0x55555555513c      93824992235836
+rbx            0x0                 0
+rcx            0x555555557df8      93824992247288
+rdx            0x7fffffffdb98      140737488346008
+rsi            0x7fffffffdb88      140737488345992
+rdi            0x1                 1
+rbp            0x7fffffffda70      0x7fffffffda70
+rsp            0x7fffffffda60      0x7fffffffda60
+r8             0x7ffff7f9af10      140737353723664
+r9             0x7ffff7fc9040      140737353912384
+r10            0x7ffff7fc3908      140737353890056
+r11            0x7ffff7fde680      140737354000000
+r12            0x7fffffffdb88      140737488345992
+r13            0x55555555513c      93824992235836
+r14            0x555555557df8      93824992247288
+r15            0x7ffff7ffd040      140737354125376
+rip            0x555555555148      0x555555555148 <main+12>
+eflags         0x206               [ PF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+k0             0x100001            1048577
+k1             0x80000000          2147483648
+k2             0x0                 0
+k3             0x0                 0
+k4             0x0                 0
+k5             0x0                 0
+k6             0x0                 0
+k7             0x0                 0
+$1 = (void *) 0x7fffffffda60
+0x7fffffffda60:	0x00000000	0x00000000	0x00000000	0x00000000
+0x7fffffffda70:	0x00000001	0x00000000	0xf7da9d90	0x00007fff
+0x7fffffffda80:	0x00000000	0x00000000	0x5555513c	0x00005555
+0x7fffffffda90:	0x00000000	0x00000001	0xffffdb88	0x00007fff
+0x7fffffffdaa0:	0x00000000	0x00000000	0x4bc85ea1	0x7b9546a6
+0x7fffffffdab0:	0xffffdb88	0x00007fff	0x5555513c	0x00005555
+0x7fffffffdac0:	0x55557df8	0x00005555	0xf7ffd040	0x00007fff
+0x7fffffffdad0:	0xfeca5ea1	0x846ab959	0x71425ea1	0x846aa913
+0x7fffffffdae0:	0x00000000	0x00000000	0x00000000	0x00000000
+0x7fffffffdaf0:	0x00000000	0x00000000	0x00000000	0x00000000
+0x7fffffffda60:	0x00000000	0x00000000	0x00000000	0x00000000
+0x7fffffffda70:	0x00000001	0x00000000	0xf7da9d90	0x00007fff
+0x7fffffffda80:	0x00000000	0x00000000	0x5555513c	0x00005555
+0x7fffffffda90:	0x00000000	0x00000001	0xffffdb88	0x00007fff
+0x7fffffffdaa0:	0x00000000	0x00000000	0x4bc85ea1	0x7b9546a6
+0x7fffffffdab0:	0xffffdb88	0x00007fff	0x5555513c	0x00005555
+0x7fffffffdac0:	0x55557df8	0x00005555	0xf7ffd040	0x00007fff
+0x7fffffffdad0:	0xfeca5ea1	0x846ab959	0x71425ea1	0x846aa913
+0x7fffffffdae0:	0x00000000	0x00000000	0x00000000	0x00000000
+0x7fffffffdaf0:	0x00000000	0x00000000	0x00000000	0x00000000
+rax            0x55555555513c      93824992235836
+rbx            0x0                 0
+rcx            0x555555557df8      93824992247288
+rdx            0x7fffffffdb98      140737488346008
+rsi            0x7fffffffdb88      140737488345992
+rdi            0x1                 1
+rbp            0x7fffffffda70      0x7fffffffda70
+rsp            0x7fffffffda60      0x7fffffffda60
+r8             0x7ffff7f9af10      140737353723664
+r9             0x7ffff7fc9040      140737353912384
+r10            0x7ffff7fc3908      140737353890056
+r11            0x7ffff7fde680      140737354000000
+r12            0x7fffffffdb88      140737488345992
+r13            0x55555555513c      93824992235836
+r14            0x555555557df8      93824992247288
+r15            0x7ffff7ffd040      140737354125376
+rip            0x55555555514f      0x55555555514f <main+19>
+eflags         0x206               [ PF IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+k0             0x100001            1048577
+k1             0x80000000          2147483648
+k2             0x0                 0
+k3             0x0                 0
+k4             0x0                 0
+k5             0x0                 0
+k6             0x0                 0
+k7             0x0                 0
+0x7fffffffda60:	0x00000000	0x00000000	0x00000000	0x00000000
+0x7fffffffda70:	0x00000001	0x00000000	0xf7da9d90	0x00007fff
+0x7fffffffda80:	0x00000000	0x00000000	0x5555513c	0x00005555
+0x7fffffffda90:	0x00000000	0x00000001	0xffffdb88	0x00007fff
+0x7fffffffdaa0:	0x00000000	0x00000000	0x4bc85ea1	0x7b9546a6
+0x7fffffffdab0:	0xffffdb88	0x00007fff	0x5555513c	0x00005555
+0x7fffffffdac0:	0x55557df8	0x00005555	0xf7ffd040	0x00007fff
+0x7fffffffdad0:	0xfeca5ea1	0x846ab959	0x71425ea1	0x846aa913
+0x7fffffffdae0:	0x00000000	0x00000000	0x00000000	0x00000000
+0x7fffffffdaf0:	0x00000000	0x00000000	0x00000000	0x00000000
+foo (n=0) at stack_frame.c:3
+Reading symbols from gnl_test...
+(No debugging symbols found in gnl_test)
+Reading symbols from gnl_test...
+The program is not being run.
+Temporary breakpoint 1 at 0x11f5: file gnl_test.c, line 13.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at gnl_test.c:13
+$1 = 3
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:21
+$2 = {0 <repeats 1024 times>}
+$3 = 0x55555555a2a0 ""
+make_ret (fd=3, ret=0x0, buf=0x55555555a2a0 "", offset=0) at ../gnl_working/get_next_line_utils.c:63
+$4 = 0
+$5 = 0
+$6 = 1
+$7 = 42
+$8 = 0x55555555a2a0 "label,size,member type,member name,member "
+
+Program received signal SIGSEGV, Segmentation fault.
+0x0000555555555368 in ft_strdupncat (src=0x0, cat=0x55555555a2a0 "label,size,member type,member name,member ", size=42) at ../gnl_working/get_next_line_utils.c:37
+Program not restarted.
+Reading symbols from gnl_test...
+Temporary breakpoint 1 at 0x11f5: file gnl_test.c, line 13.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at gnl_test.c:13
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:21
+make_ret (fd=3, ret=0x0, buf=0x55555555a2a0 "", offset=0) at ../gnl_working/get_next_line_utils.c:63
+ft_strdupncat (src=0x0, cat=0x55555555a2a0 "label,size,member type,member name,member ", size=42) at ../gnl_working/get_next_line_utils.c:35
+$1 = 0x0
+$2 = 0x55555555a2a0 "label,size,member type,member name,member "
+$3 = 42
+
+Program received signal SIGSEGV, Segmentation fault.
+0x000055555555536c in ft_strdupncat (src=0x0, cat=0x55555555a2a0 "label,size,member type,member name,member ", size=42) at ../gnl_working/get_next_line_utils.c:37
+Reading symbols from gnl_test...
+Breakpoint 1 at 0x134b: file ../gnl_working/get_next_line_utils.c, line 35.
+Process record: the program is not being run.
+Temporary breakpoint 2 at 0x11f5: file gnl_test.c, line 13.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 2, main () at gnl_test.c:13
+Continuing.
+Process record and replay target doesn't support syscall number 318
+Process record: failed to record execution log.
+
+Program stopped.
+0x00007ffff7dc6c85 in __GI___getrandom (buffer=buffer@entry=0x7ffff7fa04d8 <tcache_key>, length=length@entry=8, flags=flags@entry=1) at ../sysdeps/unix/sysv/linux/getrandom.c:29
+Temporary breakpoint 3 at 0x5555555551f5: file gnl_test.c, line 13.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 3, main () at gnl_test.c:13
+Num     Type           Disp Enb Address            What
+1       breakpoint     keep y   0x000055555555534b in ft_strdupncat at ../gnl_working/get_next_line_utils.c:35
+Continuing.
+
+Breakpoint 1, ft_strdupncat (src=0x0, cat=0x55555555a2a0 "label,size,member type,member name,member ", size=42) at ../gnl_working/get_next_line_utils.c:35
+$1 = 0x0
+$2 = 0
+$3 = 42
+$4 = 0x55555555a2e0 ""
+
+Program received signal SIGSEGV, Segmentation fault.
+0x00005555555553d4 in ft_strdupncat (src=0x0, cat=0x55555555a2a0 "label,size,member type,member name,member ", size=42) at ../gnl_working/get_next_line_utils.c:45
+Reading symbols from gnl_test...
+Temporary breakpoint 1 at 0x11f5: file gnl_test.c, line 13.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at gnl_test.c:13
+Breakpoint 2 at 0x55555555534b: file ../gnl_working/get_next_line_utils.c, line 35.
+Continuing.
+
+Breakpoint 2, ft_strdupncat (src=0x0, cat=0x55555555a2a0 "label,size,member type,member name,member ", size=42) at ../gnl_working/get_next_line_utils.c:35
+$1 = 0
+$2 = 0x55555555a2e0 ""
+$3 = 42
+$4 = 0x55555555a2e0 "l"
+$5 = 0x0
+$6 = 0x55555555a2a0 "label,size,member type,member name,member "
+$7 = 0x55555555a2e0 "label,size"
+Breakpoint 3 at 0x55555555541d: file ../gnl_working/get_next_line_utils.c, line 59.
+Continuing.
+
+Breakpoint 3, ft_strdupncat (src=0x0, cat=0x55555555a2a0 "label,size,member type,member name,member ", size=42) at ../gnl_working/get_next_line_utils.c:59
+Num     Type           Disp Enb Address            What
+2       breakpoint     keep y   0x000055555555534b in ft_strdupncat at ../gnl_working/get_next_line_utils.c:35
+	breakpoint already hit 1 time
+3       breakpoint     keep y   0x000055555555541d in ft_strdupncat at ../gnl_working/get_next_line_utils.c:59
+	breakpoint already hit 1 time
+$8 = 0x55555555a2e0 "label,size,member type,member name,member "
+make_ret (fd=3, ret=0x0, buf=0x55555555a2a0 "label,size,member type,member name,member ", offset=0) at ../gnl_working/get_next_line_utils.c:77
+
+Program received signal SIGINT, Interrupt.
+0x0000555555555306 in newline_in_buf (buf=0x55555555a2a0 "label,size,member type,member name,member ") at ../gnl_working/get_next_line_utils.c:22
+$9 = 0x55555555a2a0 "label,size,member type,member name,member "
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+newline_in_buf (buf=0x55555555a2a0 "label,size,member type,member name,member ") at ../gnl_working/get_next_line_utils.c:20
+Reading symbols from gnl_test...
+Temporary breakpoint 1 at 0x11f5: file gnl_test.c, line 13.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at gnl_test.c:13
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+[Inferior 1 (process 76604) exited normally]
+$1 = string
+Temporary breakpoint 2 at 0x5555555551f5: file gnl_test.c, line 13.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 2, main () at gnl_test.c:13
+$2 = 0x0
+$3 = 3
+Temporary breakpoint 3 at 0x5555555551f5: file gnl_test.c, line 13.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 3, main () at gnl_test.c:13
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:21
+$4 = 0x0
+Reading symbols from gnl_test...
+Temporary breakpoint 1 at 0x1215: file gnl_test.c, line 13.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at gnl_test.c:13
+
+Program received signal SIGABRT, Aborted.
+__pthread_kill_implementation (no_tid=0, signo=6, threadid=140737351505728) at ./nptl/pthread_kill.c:44
+Temporary breakpoint 2 at 0x555555555215: file gnl_test.c, line 13.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 2, main () at gnl_test.c:13
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:16
+make_ret (fd=3, ret=0x7fffffffdb78, buf=0x55555555a2a0 "", offset=0) at ../gnl_working/get_next_line_utils.c:70
+$1 = 0x55555555a2e0 "label,size,member type,member name,member "
+$2 = 0
+
+Program received signal SIGABRT, Aborted.
+__pthread_kill_implementation (no_tid=0, signo=6, threadid=140737351505728) at ./nptl/pthread_kill.c:44
+Reading symbols from gnl_test...
+Temporary breakpoint 1 at 0x1215: file gnl_test.c, line 13.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at gnl_test.c:13
+$1 = 0x55555555a410 "label,size,member type,member name,member description,value,offset from beginning of struct\nwhole struct,216,,,\nstdin,8,int,_f struct"
+Reading symbols from gnl_test...
+Temporary breakpoint 1 at 0x1215: file gnl_test.c, line 13.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at gnl_test.c:13
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:16
+make_ret (fd=3, ret=0x7fffffffdb78, buf=0x55555555a2a0 "", offset=0) at ../gnl_working/get_next_line_utils.c:70
+$1 = 0x55555555a2e0 "label,size,member type,member name,member "
+$2 = (char **) 0x7fffffffdb78
+$3 = 0x0
+$4 = (char **) 0x7fffffffdb78
+$5 = 0x55555555a2e0 "label,size,member type,member name,member "
+$6 = 42
+$7 = 0x55555555a2a0 "description,value,offset from beginning of"
+$8 = 0x55555555a320 "label,size,member type,member name,member description,value,offset from beginning of"
+$9 = 0
+$10 = 42
+$11 = 0x55555555a2a0 " struct\nwhole struct,216,,,\nstdin,8,int,_f"
+$12 = 7
+$13 = (char **) 0x7fffffffdb78
+$14 = 0x55555555a380 "label,size,member type,member name,member description,value,offset from beginning of struct\nwhole struct,216,,,\nstdin,8,int,_f"
+Reading symbols from gnl_test...
+Temporary breakpoint 1 at 0x1215: file gnl_test.c, line 13.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at gnl_test.c:13
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:16
+make_ret (fd=3, ret=0x7fffffffdb78, buf=0x55555555a2a0 "", offset=0) at ../gnl_working/get_next_line_utils.c:70
+$1 = 0x55555555a320 "label,size,member type,member name,member "
+$2 = 0x55555555a360 "label,size,member type,member name,member description,value,offset from beginning of"
+$3 = (char **) 0x7fffffffdb78
+$4 = 0x55555555a320 "label,size,member type,member name,member "
+$5 = (char **) 0x7fffffffdb78
+$6 = 0x55555555a360 "label,size,member type,member name,member description,value,offset from beginning of"
+$7 = 0x55555555a360 "label,size,member type,member name,member description,value,offset from beginning of"
+$8 = 0x55555555a2a0 " struct\nwhole struct,216,,,\nstdin,8,int,_f"
+$9 = 0x55555555a3c0 "label,size,member type,member name,member description,value,offset from beginning of struct\n"
+$10 = 0x55555555a360 "ZUUU\005"
+$11 = (char **) 0x7fffffffdb78
+$12 = 0x55555555a3c0 "label,size,member type,member name,member description,value,offset from beginning of struct\n"
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:25
+$13 = 3
+A syntax error in expression, near `'.
+$14 = 8
+No symbol "pos" in current context.
+$15 = 0x55555555a2a0 " struct\nwhole struct,216,,,\nstdin,8,int,_f"
+Reading symbols from gnl_test...
+The program is not being run.
+The program is not being run.
+The program is not being run.
+Temporary breakpoint 1 at 0x1215: file gnl_test.c, line 13.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at gnl_test.c:13
+$1 = 0x55555555a3c0 "label,size,member type,member name,member description,value,offset from beginning of struct\n"
+__libc_start_call_main (main=main@entry=0x555555555209 <main>, argc=argc@entry=1, argv=argv@entry=0x7fffffffdcc8) at ../sysdeps/nptl/libc_start_call_main.h:74
+Reading symbols from gnl_test...
+The program is not being run.
+Temporary breakpoint 1 at 0x1215: file gnl_test.c, line 13.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at gnl_test.c:13
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:16
+$1 = 0x55555555a2a0 " struct\nwhole struct,216,,,\nstdin,8,int,_f"
+Reading symbols from gnl_test...
+Temporary breakpoint 1 at 0x1215: file gnl_test.c, line 13.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at gnl_test.c:13
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:16
+Continuing.
+[Inferior 1 (process 79819) exited normally]
+Temporary breakpoint 2 at 0x555555555215: file gnl_test.c, line 13.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 2, main () at gnl_test.c:13
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:16
+make_ret (fd=3, ret=0x7fffffffdb78, buf=0x55555555a320 "\272", <incomplete sequence \367>, offset=8) at ../gnl_working/get_next_line_utils.c:70
+$1 = 0x0
+$2 = 0x55555555a320 "\272", <incomplete sequence \367>
+Reading symbols from gnl_test...
+Temporary breakpoint 1 at 0x1215: file gnl_test.c, line 13.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at gnl_test.c:13
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:16
+$1 = 0x55555555a2a0 " struct\nwhole struct,216,,,\nstdin,8,int,_f"
+Reading symbols from gnl_test...
+Temporary breakpoint 1 at 0x1215: file gnl_test.c, line 13.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at gnl_test.c:13
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:16
+$1 = 0x55555555a2a0 " struct\nwhole struct,216,,,\nstdin,8,int,_f"
+make_ret (fd=3, ret=0x7fffffffdb80, buf=0x55555555a2a0 " struct\nwhole struct,216,,,\nstdin,8,int,_f", offset=8) at ../gnl_working/get_next_line_utils.c:70
+$2 = 0x55555555a2a0 " struct\nwhole struct,216,,,\nstdin,8,int,_f"
+$3 = 8
+$4 = 0x55555555a2a0 " struct\nwhole struct,216,,,\nstdin,8,int,_f"
+$5 = 0x55555555a2a8 "whole struct,216,,,\nstdin,8,int,_f"
+$6 = 0x55555555a320 "whole struct,216,,,\nstdin,8,int,_f"
+$7 = 20
+$8 = 0x55555555a2a0 " struct\nwhole struct,216,,,\nstdin,8,int,_f"
+Reading symbols from gnl_test...
+Temporary breakpoint 1 at 0x1215: file gnl_test.c, line 13.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at gnl_test.c:13
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:16
+$1 = 0x55555555a2a0 " struct\nwhole struct,216,,,\nstdin,8,int,_f"
+No symbol "offset" in current context.
+make_ret (fd=3, ret=0x7fffffffdb80, buf=0x55555555a2a0 " struct\nwhole struct,216,,,\nstdin,8,int,_f", offset=8) at ../gnl_working/get_next_line_utils.c:70
+$2 = 8
+$3 = 0x55555555a320 "whole struct,216,,,\nstdin,8,int,_f"
+$4 = 28
+$5 = 0x55555555a2a0 " struct\nwhole struct,216,,,\nstdin,8,int,_f"
+$6 = 28
+$7 = 0x55555555a320 "whole struct,216,,,\nstdin,8,int,_f"
+Reading symbols from gnl_test...
+Temporary breakpoint 1 at 0x1215: file gnl_test.c, line 13.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test n
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at gnl_test.c:13
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:16
+make_ret (fd=3, ret=0x7fffffffdb80, buf=0x55555555a2a0 " struct\nwhole struct,216,,,\nstdin,8,int,_f", offset=8) at ../gnl_working/get_next_line_utils.c:70
+$1 = 0x55555555a2a0 " struct\nwhole struct,216,,,\nstdin,8,int,_f"
+$2 = 8
+$3 = 0x55555555a320 "whole struct,216,,,\nstdin,8,int,_f"
+$4 = 0
+$5 = 28
+Reading symbols from gnl_test...
+Temporary breakpoint 1 at 0x1215: file gnl_test.c, line 13.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at gnl_test.c:13
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:16
+Reading symbols from gnl_test...
+Temporary breakpoint 1 at 0x1215: file gnl_test.c, line 13.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at gnl_test.c:13
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:16
+make_ret (fd=3, ret=0x7fffffffdb80, buf=0x55555555a2a0 " struct\nwhole struct,216,,,\nstdin,8,int,_f", offset=8) at ../gnl_working/get_next_line_utils.c:70
+$1 = 0x55555555a2a0 " struct\nwhole struct,216,,,\nstdin,8,int,_f"
+$2 = 0
+$3 = 8
+$4 = 0x55555555a3c0 "label,size,member type,member name,member description,value,offset from beginning of struct\n"
+Please answer y or n.
+Reading symbols from gnl_test...
+Temporary breakpoint 1 at 0x1215: file gnl_test.c, line 13.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test n
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at gnl_test.c:13
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:16
+make_ret (fd=3, ret=0x7fffffffdb80, buf=0x55555555a2a0 "", offset=0) at ../gnl_working/get_next_line_utils.c:70
+$1 = 0
+$2 = 1
+Reading symbols from gnl_test...
+Temporary breakpoint 1 at 0x1215: file gnl_test.c, line 13.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at gnl_test.c:13
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:16
+make_ret (fd=3, ret=0x7fffffffdb80, buf=0x55555555a2a0 "", offset=0) at ../gnl_working/get_next_line_utils.c:70
+$1 = 0x55555555a2e0 ""
+$2 = 0x55555555a2a0 ""
+$3 = 0
+$4 = 0
+$5 = 0x55555555a2a0 ""
+$6 = 42
+$7 = 0
+$8 = 0x55555555a320 "label,size,member type,member name,member "
+$9 = 0
+$10 = 0x55555555a2a0 "description,value,offset from beginning of"
+$11 = 0x55555555a320 "label,size,member type,member name,member "
+Undefined command: "priont".  Try "help".
+$12 = 0x55555555a360 "label,size,member type,member name,member description,value,offset from beginning of"
+$13 = 0x55555555a2a0 "description,value,offset from beginning of"
+$14 = 0
+$15 = 0x55555555a2a0 " struct\nwhole struct,216,,,\nstdin,8,int,_f"
+$16 = 0
+$17 = 0x55555555a360 "label,size,member type,member name,member description,value,offset from beginning of"
+No symbol "re2" in current context.
+$18 = 0x55555555a3c0 "label,size,member type,member name,member description,value,offset from beginning of struct\nwhole struct,216,,,\nstdin,8,int,_f"
+Reading symbols from gnl_test...
+Temporary breakpoint 1 at 0x1215: file gnl_test.c, line 13.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at gnl_test.c:13
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:16
+make_ret (fd=3, ret=0x7fffffffdb80, buf=0x55555555a2a0 " struct\nwhole struct,216,,,\nstdin,8,int,_f", offset=8) at ../gnl_working/get_next_line_utils.c:70
+$1 = 8
+$2 = 0x55555555a320 "whole struct,216,,,\nstdin,8,int,_f"
+$3 = 28
+$4 = 0x55555555a2a0 " struct\nwhole struct,216,,,\nstdin,8,int,_f"
+$5 = 0x55555555a2bc "stdin,8,int,_f"
+$6 = 28
+$7 = 0x55555555a320 "whole struct,216,,,\nstdin,8,int,_f"
+Reading symbols from gnl_test...
+Temporary breakpoint 1 at 0x1215: file gnl_test.c, line 13.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at gnl_test.c:13
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:16
+make_ret (fd=3, ret=0x7fffffffdb80, buf=0x55555555a2a0 " struct\nwhole struct,216,,,\nstdin,8,int,_f", offset=8) at ../gnl_working/get_next_line_utils.c:82
+$1 = 8
+ft_strlen (str=0x55555555a2a8 "whole struct,216,,,\nstdin,8,int,_f") at ../gnl_working/get_next_line_utils.c:70
+$2 = 19
+make_ret (fd=3, ret=0x7fffffffdb80, buf=0x55555555a2a0 " struct\nwhole struct,216,,,\nstdin,8,int,_f", offset=8) at ../gnl_working/get_next_line_utils.c:87
+$3 = 0x55555555a2e0 "whole struct,216,,,"
+$4 = 0x55555555a2a0 " struct\nwhole struct,216,,,\nstdin,8,int,_f"
+$5 = 8
+$6 = 28
+$7 = 0x55555555a2e0 "whole struct,216,,,"
+Reading symbols from gnl_test...
+The program is not being run.
+The program is not being run.
+Temporary breakpoint 1 at 0x1215: file gnl_test.c, line 13.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at gnl_test.c:13
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:16
+make_ret (fd=3, ret=0x7fffffffdb80, buf=0x55555555a2a0 " struct\nwhole struct,216,,,\nstdin,8,int,_f", offset=36) at ../gnl_working/get_next_line_utils.c:82
+$1 = 36
+Reading symbols from gnl_test...
+Temporary breakpoint 1 at 0x1215: file gnl_test.c, line 13.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at gnl_test.c:13
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:16
+make_ret (fd=3, ret=0x7fffffffdb80, buf=0x55555555a2a0 " struct\nwhole struct,216,,,\nstdin,8,int,_f", offset=28) at ../gnl_working/get_next_line_utils.c:82
+$1 = 28
+$2 = 28
+$3 = 28
+Reading symbols from gnl_test...
+Temporary breakpoint 1 at 0x1215: file gnl_test.c, line 13.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at gnl_test.c:13
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:16
+make_ret (fd=3, ret=0x7fffffffdb80, buf=0x55555555a2a0 "", offset=0) at ../gnl_working/get_next_line_utils.c:82
+$1 = 0
+$2 = 0x55555555a2e0 ""
+$3 = 0x55555555a2a0 ""
+$4 = 42
+$5 = 18446650248717294944
+$6 = 0x55555555a2a0 "label,size,member type,member name,member "
+Reading symbols from gnl_test...
+Temporary breakpoint 1 at 0x1215: file gnl_test.c, line 13.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at gnl_test.c:13
+$1 = 0x55555555a3a0 "label,size,member type,member name,member description,value,offset from beginning of struct"
+$2 = 0x55555555a2e0 "whole struct,216,,,"
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:16
+$3 = 0x55555555a2a0 " struct\nwhole struct,216,,,\nstdin,8,int,_f"
+make_ret (fd=3, ret=0x7fffffffdb80, buf=0x55555555a2a0 " struct\nwhole struct,216,,,\nstdin,8,int,_f", offset=28) at ../gnl_working/get_next_line_utils.c:82
+$4 = 28
+Undefined command: "nn".  Try "help".
+$5 = 0
+Reading symbols from gnl_test...
+Temporary breakpoint 1 at 0x1215: file gnl_test.c, line 13.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at gnl_test.c:13
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:16
+make_ret (fd=3, ret=0x7fffffffdb80, buf=0x55555555a2a0 " struct\nwhole struct,216,,,\nstdin,8,int,_f", offset=8) at ../gnl_working/get_next_line_utils.c:82
+Reading symbols from gnl_test...
+Temporary breakpoint 1 at 0x1215: file gnl_test.c, line 13.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at gnl_test.c:13
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:16
+make_ret (fd=3, ret=0x7fffffffdb80, buf=0x55555555a2a0 " struct\nwhole struct,216,,,\nstdin,8,int,_f", offset=28) at ../gnl_working/get_next_line_utils.c:82
+Reading symbols from gnl_test...
+Temporary breakpoint 1 at 0x1215: file gnl_test.c, line 13.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at gnl_test.c:13
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:16
+make_ret (fd=3, ret=0x7fffffffdb80, buf=0x55555555a2a0 " struct\nwhole struct,216,,,\nstdin,8,int,_f", offset=28) at ../gnl_working/get_next_line_utils.c:82
+$1 = 0x55555555a2a0 " struct\nwhole struct,216,,,\nstdin,8,int,_f"
+$2 = 0x55555555a820 "stdin,8,int,_f"
+Reading symbols from gnl_test...

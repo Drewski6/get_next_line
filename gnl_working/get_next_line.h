@@ -19,5 +19,6 @@
 # include <unistd.h>
 
 char	*get_next_line(int fd);
+int		make_ret(int fd, char **ret, char *buf, int offset);
 
 #endif

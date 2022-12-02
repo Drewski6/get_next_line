@@ -8,12 +8,17 @@
 int main (void)
 {
 	char	*string;
+	int		i;
 	int		fd;
 
 	fd = open("output.csv", O_RDONLY);
-	string = get_next_line(fd);
-	printf("Return:%s\n", string);
-
+	i = 0;
+	while (i < 25)
+	{
+		string = get_next_line(fd);
+		printf("Return:%s\n", string);
+		i++;
+	}
 	free(string);
 	close(fd);
 
