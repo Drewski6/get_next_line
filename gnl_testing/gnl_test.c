@@ -9,18 +9,26 @@ int main (void)
 {
 	char	*string;
 	int		i;
-	int		fd;
+	int		fd1;
+//	int		fd2;
 
-	fd = open("output.csv", O_RDONLY);
+	fd1 = open("../gnl_working/tripouille/files/multiple_nlx5", O_RDONLY);
+//	fd2 = open("sample.txt", O_RDONLY);
 	i = 0;
 	while (i < 25)
 	{
-		string = get_next_line(fd);
-		printf("Return:%s\n", string);
+		string = get_next_line(fd1);
+		if (string)
+			printf("%s", string);
+		free(string);
+//		string = get_next_line(fd2);
+//		if (string)
+//			printf("%s\n", string);
+//		free(string);
 		i++;
 	}
-	free(string);
-	close(fd);
+	close(fd1);
+//		close(fd2);
 
 	return (0);
 }

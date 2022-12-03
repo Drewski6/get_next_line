@@ -925,3 +925,538 @@ Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_te
 Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
 
 Temporary breakpoint 1, main () at gnl_test.c:14
+Reading symbols from gnl_test...
+Temporary breakpoint 1 at 0x1215: file gnl_test.c, line 14.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at gnl_test.c:14
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:16
+$1 = 0x7ffff1e1e010 ""
+make_ret (fd=3, ret=0x7fffffffdb78, buf=0x7ffff1e1e010 "") at ../gnl_working/get_next_line_utils.c:120
+$2 = 100000000
+Reading symbols from gnl_test...
+Temporary breakpoint 1 at 0x1215: file gnl_test.c, line 14.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at gnl_test.c:14
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:16
+make_ret (fd=3, ret=0x7fffffffdb78, buf=0x55555555a2a0 "") at ../gnl_working/get_next_line_utils.c:120
+$1 = 91
+$2 = 0x55555555a2a0 "label,size,member type,member name,member description,value,offset from beginning of struct\n"
+$3 = 0x55555555a2a0 "label,size,member type,member name,member description,value,offset from beginning of struct\n"
+Reading symbols from gnl_test...
+Temporary breakpoint 1 at 0x1215: file gnl_test.c, line 14.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at gnl_test.c:14
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:16
+make_ret (fd=3, ret=0x7fffffffda48, buf=0x55555555a2a0 "") at ../gnl_working/get_next_line_utils.c:120
+$1 = 0x55555555a2a0 ""
+$2 = 0x55555555a2a0 "label,size,member type,member name,member description,value,offset from beginning of struct\n"
+0x55555555a2a0:	0x6562616c	0x69732c6c	0x6d2c657a	0x65626d65
+0x55555555a2b0:	0x79742072	0x6d2c6570	0x65626d65	0x616e2072
+0x55555555a2c0:	0x6d2c656d	0x65626d65	0x65642072	0x69726373
+0x55555555a2d0:	0x6f697470	0x61762c6e	0x2c65756c	0x7366666f
+0x55555555a2e0:	0x66207465	0x206d6f72	0x69676562	0x6e696e6e
+0x55555555a2f0:	0x666f2067	0x72747320	0x0a746375	0x00000000
+0x55555555a300:	0x00000000	0x00000000	0x00020d01	0x00000000
+0x55555555a310:	0x00000000	0x00000000	0x00000000	0x00000000
+0x55555555a320:	0x00000000	0x00000000	0x00000000	0x00000000
+0x55555555a330:	0x00000000	0x00000000	0x00000000	0x00000000
+0x55555555a340:	0x00000000	0x00000000	0x00000000	0x00000000
+0x55555555a350:	0x00000000	0x00000000	0x00000000	0x00000000
+0x55555555a360:	0x00000000	0x00000000	0x00000000	0x00000000
+0x55555555a370:	0x00000000	0x00000000	0x00000000	0x00000000
+0x55555555a380:	0x00000000	0x00000000	0x00000000	0x00000000
+0x55555555a390:	0x00000000	0x00000000	0x00000000	0x00000000
+0x55555555a3a0:	0x00000000	0x00000000	0x00000000	0x00000000
+0x55555555a3b0:	0x00000000	0x00000000	0x00000000	0x00000000
+0x55555555a3c0:	0x00000000	0x00000000	0x00000000	0x00000000
+0x55555555a3d0:	0x00000000	0x00000000	0x00000000	0x00000000
+0x55555555a3e0:	0x00000000	0x00000000	0x00000000	0x00000000
+0x55555555a3f0:	0x00000000	0x00000000	0x00000000	0x00000000
+0x55555555a400:	0x00000000	0x00000000	0x00000000	0x00000000
+0x55555555a410:	0x00000000	0x00000000	0x00000000	0x00000000
+0x55555555a420:	0x00000000	0x00000000	0x00000000	0x00000000
+0x55555555a430:	0x00000000
+Reading symbols from gnl_test...
+Reading symbols from gnl_test...
+0x55555555a2a0:	108 'l'	97 'a'	98 'b'	101 'e'	108 'l'	44 ','	115 's'	105 'i'
+0x55555555a2a8:	122 'z'	101 'e'	44 ','	109 'm'	101 'e'	109 'm'	98 'b'	101 'e'
+0x55555555a2b0:	114 'r'	32 ' '	116 't'	121 'y'	112 'p'	101 'e'	44 ','	109 'm'
+0x55555555a2b8:	101 'e'	109 'm'	98 'b'	101 'e'	114 'r'	32 ' '	110 'n'	97 'a'
+0x55555555a2c0:	109 'm'	101 'e'	44 ','	109 'm'	101 'e'	109 'm'	98 'b'	101 'e'
+0x55555555a2c8:	114 'r'	32 ' '	100 'd'	101 'e'	115 's'	99 'c'	114 'r'	105 'i'
+0x55555555a2d0:	112 'p'	116 't'	105 'i'	111 'o'	110 'n'	44 ','	118 'v'	97 'a'
+0x55555555a2d8:	108 'l'	117 'u'	101 'e'	44 ','	111 'o'	102 'f'	102 'f'	115 's'
+0x55555555a2e0:	101 'e'	116 't'	32 ' '	102 'f'	114 'r'	111 'o'	109 'm'	32 ' '
+0x55555555a2e8:	98 'b'	101 'e'	103 'g'	105 'i'	110 'n'	110 'n'	105 'i'	110 'n'
+0x55555555a2f0:	103 'g'	32 ' '	111 'o'	102 'f'	32 ' '	115 's'	116 't'	114 'r'
+0x55555555a2f8:	117 'u'	99 'c'	116 't'	10 '\n'	0 '\000'	0 '\000'	0 '\000'	0 '\000'
+0x55555555a300:	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'
+$3 = 91
+$4 = 91
+$5 = 0x55555555a310 ""
+$6 = (char **) 0x7fffffffda48
+$7 = 0x0
+$8 = 0x0
+$9 = 0x55555555a310 ""
+$10 = 0x55555555a310 ""
+$11 = 0x55555555a310 "label,size,member type,member name,member description,value,offset from beginning of struc"
+Reading symbols from gnl_test...
+Remote debugging using | /usr/bin/vgdb --pid=22221
+relaying data between gdb and process 22221
+warning: remote target does not support file transfer, attempting to access files from local filesystem.
+Reading symbols from /lib64/ld-linux-x86-64.so.2...
+Reading symbols from /usr/lib/debug/.build-id/61/ef896a699bb1c2e4e231642b2e1688b2f1a61e.debug...
+0x00000000040202b0 in _start () from /lib64/ld-linux-x86-64.so.2
+Breakpoint 1 at 0x109215: file gnl_test.c, line 14.
+Single stepping until exit from function _start,
+which has no line number information.
+
+Breakpoint 1, main () at gnl_test.c:14
+Continuing.
+[Inferior 1 (Remote target) exited normally]
+Reading symbols from gnl_test...
+Temporary breakpoint 1 at 0x1215: file gnl_test.c, line 15.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at gnl_test.c:15
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:16
+Reading symbols from gnl_test...
+Temporary breakpoint 1 at 0x1215: file gnl_test.c, line 15.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at gnl_test.c:15
+$1 = 0x0
+Temporary breakpoint 2 at 0x555555555215: file gnl_test.c, line 15.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 2, main () at gnl_test.c:15
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:16
+$2 = 0x55555555a2a0 ""
+make_ret_gnl (fd=3, ret=0x7fffffffda48, buf=0x55555555a2a0 "") at ../gnl_working/get_next_line_utils.c:120
+$3 = 100
+$4 = 0
+Reading symbols from gnl_test...
+Breakpoint 1 at 0x15eb: file ../gnl_working/get_next_line_utils.c, line 102.
+The program is not being run.
+Temporary breakpoint 2 at 0x1215: file gnl_test.c, line 15.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 2, main () at gnl_test.c:15
+Continuing.
+
+Breakpoint 1, fill_buffer_gnl (fd=3, buf=0x55555555a2a0 "") at ../gnl_working/get_next_line_utils.c:102
+$1 = 1
+$2 = 0x55555555a2a0 "\n"
+$3 = 0
+make_ret_gnl (fd=3, ret=0x7fffffffda48, buf=0x55555555a2a0 "\n") at ../gnl_working/get_next_line_utils.c:124
+$4 = 0
+Reading symbols from gnl_test...
+Temporary breakpoint 1 at 0x1215: file gnl_test.c, line 15.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at gnl_test.c:15
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:16
+$1 = 0x55555555a310 "\n"
+Undefined command: "nprint".  Try "help".
+Undefined command: "pirnt".  Try "help".
+No symbol "ft_table" in current context.
+main () at gnl_test.c:21
+$2 = 0x55555555a310 "\n"
+$3 = 0x0
+Reading symbols from gnl_test...
+Temporary breakpoint 1 at 0x1215: file gnl_test.c, line 15.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at gnl_test.c:15
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:16
+$1 = 0x55555555a2a0 ""
+make_ret_gnl (fd=3, ret=0x7fffffffda48, buf=0x55555555a2a0 "") at ../gnl_working/get_next_line_utils.c:122
+$2 = 1
+fill_buffer_gnl (fd=3, buf=0x55555555a2a0 "") at ../gnl_working/get_next_line_utils.c:102
+$3 = 0
+$4 = 1
+$5 = 0x55555555a2a0 "\n"
+$6 = 0
+make_ret_gnl (fd=3, ret=0x7fffffffda48, buf=0x55555555a2a0 "\n") at ../gnl_working/get_next_line_utils.c:126
+$7 = 1
+ft_strdup_gnl (src=0x0) at ../gnl_working/get_next_line_utils.c:74
+$8 = 0x55555555a2c0 ""
+make_ret_gnl (fd=3, ret=0x7fffffffda48, buf=0x55555555a2a0 "\n") at ../gnl_working/get_next_line_utils.c:131
+$9 = 0x55555555a2c0 ""
+$10 = 0x0
+$11 = 0x55555555a2c0 ""
+$12 = 1
+ft_strlcat_gnl (dest=0x55555555a2c0 "", src=0x55555555a2a0 "\n", size=2) at ../gnl_working/get_next_line_utils.c:46
+Undefined command: "nn".  Try "help".
+$13 = 2
+$14 = 0x55555555a2c0 ""
+$15 = 0
+$16 = 0
+$17 = 10 '\n'
+$18 = 1
+$19 = 0
+make_ret_gnl (fd=3, ret=0x7fffffffda48, buf=0x55555555a2a0 "\n") at ../gnl_working/get_next_line_utils.c:139
+$20 = 0x55555555a2a0 "\n"
+$21 = 0x55555555a2c0 "\n"
+$22 = 1
+$23 = 0x55555555a2c0 "\n"
+$24 = 1
+$25 = 0x55555555a2a0 "\n"
+fill_buffer_gnl (fd=3, buf=0x55555555a2a0 "\n") at ../gnl_working/get_next_line_utils.c:102
+$26 = 10 '\n'
+$27 = 0
+$28 = 0
+Reading symbols from gnl_test...
+Temporary breakpoint 1 at 0x1215: file gnl_test.c, line 15.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at gnl_test.c:15
+$1 = 0x55555555a2c0 "0"
+Temporary breakpoint 2 at 0x555555555215: file gnl_test.c, line 15.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 2, main () at gnl_test.c:15
+Undefined command: "sn".  Try "help".
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:16
+make_ret_gnl (fd=3, ret=0x7fffffffda48, buf=0x55555555a2a0 "") at ../gnl_working/get_next_line_utils.c:122
+fill_buffer_gnl (fd=3, buf=0x55555555a2a0 "") at ../gnl_working/get_next_line_utils.c:102
+$2 = 1
+$3 = 0x55555555a2a0 "0"
+make_ret_gnl (fd=3, ret=0x7fffffffda48, buf=0x55555555a2a0 "0") at ../gnl_working/get_next_line_utils.c:126
+$4 = 1
+$5 = 0x55555555a2c0 ""
+$6 = 0x0
+$7 = 0x55555555a2a0 "0"
+$8 = 0x55555555a2c0 "0"
+$9 = 1
+fill_buffer_gnl (fd=3, buf=0x55555555a2a0 "0") at ../gnl_working/get_next_line_utils.c:102
+$10 = 0
+$11 = 0x55555555a2a0 "0"
+$12 = 0
+$13 = 0x55555555a2a0 "1"
+$14 = 1
+make_ret_gnl (fd=3, ret=0x7fffffffda48, buf=0x55555555a2a0 "1") at ../gnl_working/get_next_line_utils.c:126
+$15 = 1
+$16 = 0x55555555a2c0 "0"
+$17 = 0x55555555a2e0 "0"
+$18 = 0x55555555a2c0 "0"
+$19 = 0x55555555a2a0 "1"
+$20 = 0x55555555a2e0 "0"
+$21 = 0x55555555a2a0 "1"
+Temporary breakpoint 3 at 0x555555555215: file gnl_test.c, line 15.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 3, main () at gnl_test.c:15
+Breakpoint 4 at 0x5555555553f8: file ../gnl_working/get_next_line_utils.c, line 46.
+Continuing.
+
+Breakpoint 4, ft_strlcat_gnl (dest=0x55555555a2c0 "", src=0x55555555a2a0 "0", size=2) at ../gnl_working/get_next_line_utils.c:46
+$22 = 0x55555555a2a0 "0"
+Continuing.
+
+Breakpoint 4, ft_strlcat_gnl (dest=0x55555555a2e0 "0", src=0x55555555a2a0 "1", size=2) at ../gnl_working/get_next_line_utils.c:46
+$23 = 0x55555555a2a0 "1"
+$24 = 0x55555555a2e0 "0"
+$25 = 2
+$26 = 0x55555555a2a0 "1"
+$27 = 0
+$28 = 1
+$29 = 0
+$30 = 0x55555555a2a0 "1"
+$31 = 0x55555555a2e0 "0"
+`/home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test' has changed; re-reading symbols.
+Temporary breakpoint 5 at 0x1215: file gnl_test.c, line 15.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 5, main () at gnl_test.c:15
+Reading symbols from gnl_test...
+Temporary breakpoint 1 at 0x1215: file gnl_test.c, line 15.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at gnl_test.c:15
+Breakpoint 2 at 0x5555555553f8: file ../gnl_working/get_next_line_utils.c, line 46.
+Continuing.
+
+Breakpoint 2, ft_strlcat_gnl (dest=0x55555555a2c0 "", src=0x55555555a2a0 "0", size=1) at ../gnl_working/get_next_line_utils.c:46
+Continuing.
+
+Breakpoint 2, ft_strlcat_gnl (dest=0x55555555a2e0 "0", src=0x55555555a2a0 "1", size=1) at ../gnl_working/get_next_line_utils.c:46
+No symbol "str_len" in current context.
+$1 = 1
+$2 = 1
+$3 = 0
+$4 = 1
+$5 = 0x55555555a2e0 "0"
+$6 = 1
+$7 = 0
+$8 = 0x55555555a2a0 "1"
+$9 = 0
+$10 = 0x55555555a2e0 "01"
+$11 = 1
+$12 = 1
+$13 = 0x55555555a2e0 "01"
+$14 = 1
+$15 = 1
+make_ret_gnl (fd=3, ret=0x7fffffffda48, buf=0x55555555a2a0 "1") at ../gnl_working/get_next_line_utils.c:139
+$16 = 0x55555555a2a0 "1"
+$17 = 0x55555555a2e0 "01"
+$18 = 1
+$19 = 0x55555555a2a0 "2"
+$20 = 0x55555555a2c0 "01"
+$21 = 0x55555555a2e0 "01"
+$22 = 0x55555555a2a0 "2"
+$23 = 0x55555555a2c0 "01"
+
+Breakpoint 2, ft_strlcat_gnl (dest=0x55555555a2c0 "01", src=0x55555555a2a0 "2", size=1) at ../gnl_working/get_next_line_utils.c:46
+$24 = 1
+Reading symbols from gnl_test...
+Breakpoint 1 at 0x1363: file ../gnl_working/get_next_line_utils.c, line 20.
+The program is not being run.
+Temporary breakpoint 2 at 0x1215: file gnl_test.c, line 15.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 2, main () at gnl_test.c:15
+Continuing.
+
+Breakpoint 1, ft_calloc_gnl (num_elem=2, elem_size=1) at ../gnl_working/get_next_line_utils.c:20
+$1 = (void *) 0x55555555a2a0
+$2 = (void *) 0x55555555a2a0
+$3 = 0
+$4 = (void *) 0x55555555a2a0
+$5 = 1
+$6 = (void *) 0x55555555a2a1
+0x55555555a2a0:	0x00000000	0x00000000	0x00000000	0x00000000
+0x55555555a2b0:	0x00000000	0x00000000	0x00020d51	0x00000000
+0x55555555a2c0:	0x00000000	0x00000000	0x00000000	0x00000000
+0x55555555a2d0:	0x00000000	0x00000000	0x00000000	0x00000000
+0x55555555a2e0:	0x00000000	0x00000000	0x00000000	0x00000000
+Reading symbols from gnl_test...
+Breakpoint 1 at 0x1363: file ../gnl_working/get_next_line_utils.c, line 20.
+Temporary breakpoint 2 at 0x1215: file gnl_test.c, line 15.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 2, main () at gnl_test.c:15
+Continuing.
+
+Breakpoint 1, ft_calloc_gnl (num_elem=10000001, elem_size=1) at ../gnl_working/get_next_line_utils.c:20
+$1 = 10000001
+$2 = (void *) 0x7ffff73f3010
+$3 = 20
+0x7ffff73f3010:	0x00000000	0x00000000	0x00000000	0x00000000
+0x7ffff73f3020:	0x00000000	0x00000000	0x00000000	0x00000000
+0x7ffff73f3030:	0x00000000	0x00000000	0x00000000	0x00000000
+0x7ffff73f3040:	0x00000000	0x00000000	0x00000000	0x00000000
+0x7ffff73f3050:	0x00000000	0x00000000	0x00000000	0x00000000
+0x7ffff73f3060:	0x00000000	0x00000000	0x00000000	0x00000000
+0x7ffff73f3070:	0x00000000	0x00000000	0x00000000	0x00000000
+0x7ffff73f3080:	0x00000000	0x00000000	0x00000000	0x00000000
+0x7ffff73f3090:	0x00000000	0x00000000	0x00000000	0x00000000
+0x7ffff73f30a0:	0x00000000	0x00000000	0x00000000	0x00000000
+0x7ffff73f30b0:	0x00000000	0x00000000	0x00000000	0x00000000
+0x7ffff73f30c0:	0x00000000	0x00000000	0x00000000	0x00000000
+0x7ffff73f30d0:	0x00000000	0x00000000	0x00000000	0x00000000
+0x7ffff73f30e0:	0x00000000	0x00000000	0x00000000	0x00000000
+0x7ffff73f30f0:	0x00000000	0x00000000	0x00000000	0x00000000
+0x7ffff73f3100:	0x00000000	0x00000000	0x00000000	0x00000000
+0x7ffff73f3110:	0x00000000	0x00000000	0x00000000	0x00000000
+0x7ffff73f3120:	0x00000000	0x00000000	0x00000000	0x00000000
+0x7ffff73f3130:	0x00000000	0x00000000	0x00000000	0x00000000
+0x7ffff73f3140:	0x00000000	0x00000000	0x00000000	0x00000000
+0x7ffff73f3150:	0x00000000	0x00000000	0x00000000	0x00000000
+0x7ffff73f3160:	0x00000000	0x00000000	0x00000000	0x00000000
+0x7ffff73f3170:	0x00000000	0x00000000	0x00000000	0x00000000
+0x7ffff73f3180:	0x00000000	0x00000000	0x00000000	0x00000000
+0x7ffff73f3190:	0x00000000	0x00000000	0x00000000	0x00000000
+0x7ffff73f3010:	0x00000000	0x00000000	0x00000000	0x00000000
+0x7ffff73f3020:	0x00000000	0x00000000	0x00000000	0x00000000
+0x7ffff73f3030:	0x00000000	0x00000000
+0x7ffff73f3010:	0x00000000	0x00000000	0x00000000	0x00000000
+0x7ffff73f3020:	0x00000000	0x00000000	0x00000000	0x00000000
+0x7ffff73f3030:	0x00000000	0x00000000	0x00000000	0x00000000
+0x7ffff73f3040:	0x00000000	0x00000000	0x00000000	0x00000000
+0x7ffff73f3050:	0x00000000	0x00000000	0x00000000	0x00000000
+$4 = (void *) 0x7ffff73f3010
+$5 = (void *) 0x7ffff73f3024
+$6 = 20
+Reading symbols from gnl_test...
+Temporary breakpoint 1 at 0x1215: file gnl_test.c, line 15.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at gnl_test.c:15
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:16
+$1 = 0x55555555a2a0 "0123456789012345678901234567890123456789\n"
+$2 = 0x55555555a6b0 "0123456789012345678901234567890123456789\n"
+$3 = 1024
+main () at gnl_test.c:21
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:16
+$4 = 0x7fffffffdb98 "g\337\377\377\377\177"
+$5 = 1024
+$6 = 0x55555555a6b0 ""
+make_ret_gnl (fd=3, ret=0x7fffffffda40, buf=0x55555555a6b0 "", buf_size=1024) at ../gnl_working/get_next_line_utils.c:122
+$7 = 0x55555555a6b0 ""
+$8 = 0x0
+fill_buffer_gnl (fd=3, buf=0x55555555a6b0 "", buf_size=1024) at ../gnl_working/get_next_line_utils.c:102
+$9 = 0x55555555a6b0 "0"
+$10 = 0x55555555a6b0 "0"
+Reading symbols from gnl_test...
+$1 = 75824084
+Temporary breakpoint 1 at 0x1215: file gnl_test.c, line 15.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at gnl_test.c:15
+$2 = 75824084
+$3 = 75824083
+Reading symbols from gnl_test...
+Temporary breakpoint 1 at 0x1215: file gnl_test.c, line 15.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at gnl_test.c:15
+$1 = 0x55555555a6b0 "0123456789012345678901234567890123456789\n"
+`/home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test' has changed; re-reading symbols.
+Temporary breakpoint 2 at 0x1215: file gnl_test.c, line 15.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 2, main () at gnl_test.c:15
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:16
+$2 = 0x55555555a2a0 ""
+$3 = 1025
+make_ret_gnl (fd=3, ret=0x7fffffffda40, buf=0x55555555a2a0 "", buf_size=1024) at ../gnl_working/get_next_line_utils.c:126
+$4 = 41
+$5 = 0x55555555a2a0 "0123456789012345678901234567890123456789\n"
+$6 = 41
+$7 = 1024
+ft_strdup_gnl (src=0x0, buf_size=1024) at ../gnl_working/get_next_line_utils.c:74
+Reading symbols from gnl_test...
+Temporary breakpoint 1 at 0x1215: file gnl_test.c, line 15.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at gnl_test.c:15
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:16
+ft_calloc_gnl (num_elem=1025, elem_size=1) at ../gnl_working/get_next_line_utils.c:20
+$1 = 1
+$2 = 1025
+$3 = (void *) 0x55555555a2a0
+Breakpoint 2 at 0x55555555540e: file ../gnl_working/get_next_line_utils.c, line 37.
+Continuing.
+
+Breakpoint 2, ft_calloc_gnl (num_elem=1025, elem_size=1) at ../gnl_working/get_next_line_utils.c:37
+Num     Type           Disp Enb Address            What
+2       breakpoint     keep y   0x000055555555540e in ft_calloc_gnl 
+                                                   at ../gnl_working/get_next_line_utils.c:37
+	breakpoint already hit 1 time
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:27
+make_ret_gnl (fd=3, ret=0x7fffffffda40, buf=0x55555555a2a0 "", buf_size=1024) at ../gnl_working/get_next_line_utils.c:126
+$4 = (void *) 0x55555555a2a0
+$5 = 1024
+$6 = 1024
+fill_buffer_gnl (fd=3, buf=0x55555555a2a0 "", buf_size=1024) at ../gnl_working/get_next_line_utils.c:103
+$7 = 1
+$8 = 0x55555555a2a0 "0"
+$9 = 0x55555555a2a0 "01"
+$10 = 0x55555555a2a0 "01234567"
+$11 = 0x55555555a2a0 "012345678901234"
+Breakpoint 3 at 0x55555555567d: file ../gnl_working/get_next_line_utils.c, line 113.
+Continuing.
+
+Breakpoint 3, fill_buffer_gnl (fd=3, buf=0x55555555a2a0 "0123456789012345678901234567890123456789\n", buf_size=1024) at ../gnl_working/get_next_line_utils.c:113
+Num     Type           Disp Enb Address            What
+3       breakpoint     keep y   0x000055555555567d in fill_buffer_gnl 
+                                                   at ../gnl_working/get_next_line_utils.c:113
+	breakpoint already hit 1 time
+$12 = 0x55555555a2a0 "0123456789012345678901234567890123456789\n"
+$13 = 40
+A syntax error in expression, near `}'.
+$14 = 0 '\000'
+$15 = 40
+$16 = 0x55555555a2a0 "0123456789012345678901234567890123456789\n"
+make_ret_gnl (fd=3, ret=0x7fffffffda40, buf=0x55555555a2a0 "0123456789012345678901234567890123456789\n", buf_size=1024) at ../gnl_working/get_next_line_utils.c:130
+$17 = 41
+$18 = 1024
+ft_strdup_gnl (src=0x0, r_size=41) at ../gnl_working/get_next_line_utils.c:74
+$19 = 41
+$20 = 0x55555555a6b0 ""
+0x55555555a6b0:	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'
+0x55555555a6b8:	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'
+0x55555555a6c0:	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'
+0x55555555a6c8:	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'
+0x55555555a6d0:	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'
+0x55555555a6d8:	0 '\000'	0 '\000'
+No symbol "ret" in current context.
+make_ret_gnl (fd=3, ret=0x7fffffffda40, buf=0x55555555a2a0 "0123456789012345678901234567890123456789\n", buf_size=1024) at ../gnl_working/get_next_line_utils.c:135
+$21 = 0x0
+ft_strlcat_gnl (dest=0x55555555a6b0 "", src=0x55555555a2a0 "0123456789012345678901234567890123456789\n", size=42) at ../gnl_working/get_next_line_utils.c:46
+$22 = 0x55555555a6b0 ""
+$23 = 0x55555555a2a0 "0123456789012345678901234567890123456789\n"
+$24 = 42
+$25 = 24
+$26 = 34
+$27 = 0x55555555a2a0 "0123456789012345678901234567890123456789\n"
+$28 = 0x55555555a6b0 ""
+$29 = 0x55555555a6b0 "012"
+$30 = 0x55555555a6b0 "012345678901234567"
+$31 = 0x55555555a6b0 "012345678901234567890123456789"
+$32 = 0x55555555a6b0 "0123456789012345678901234567890123456789\n"
+$33 = 41
+$34 = 0
+$35 = 41
+$36 = 0x55555555a6b0 "0123456789012345678901234567890123456789\n"
+0x55555555a6b0:	48 '0'	49 '1'	50 '2'	51 '3'	52 '4'	53 '5'	54 '6'	55 '7'
+0x55555555a6b8:	56 '8'	57 '9'	48 '0'	49 '1'	50 '2'	51 '3'	52 '4'	53 '5'
+0x55555555a6c0:	54 '6'	55 '7'	56 '8'	57 '9'	48 '0'	49 '1'	50 '2'	51 '3'
+0x55555555a6c8:	52 '4'	53 '5'	54 '6'	55 '7'	56 '8'	57 '9'	48 '0'	49 '1'
+0x55555555a6d0:	50 '2'	51 '3'	52 '4'	53 '5'	54 '6'	55 '7'	56 '8'	57 '9'
+0x55555555a6d8:	10 '\n'	0 '\000'
+make_ret_gnl (fd=3, ret=0x7fffffffda40, buf=0x55555555a2a0 "0123456789012345678901234567890123456789\n", buf_size=1024) at ../gnl_working/get_next_line_utils.c:143
+$37 = 0x55555555a2a0 "0123456789012345678901234567890123456789\n"
+$38 = 0x55555555a6b0 "0123456789012345678901234567890123456789\n"
+$39 = 41
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:29
+$40 = 0x55555555a2a0 "0123456789012345678901234567890123456789\n"
+$41 = 0x55555555a2a0 "ZUUU\005"
+main () at gnl_test.c:21
+$42 = 0x55555555a6b0 "0123456789012345678901234567890123456789\n"

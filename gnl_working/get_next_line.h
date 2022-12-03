@@ -17,8 +17,10 @@
 # endif
 # include <stdlib.h>
 # include <unistd.h>
+# include <stdint.h>
 
 char	*get_next_line(int fd);
-int		make_ret(int fd, char **ret, char *buf, int offset);
+void	*ft_calloc_gnl(size_t num_elem, size_t elem_size);
+int		make_ret_gnl(int fd, char **ret, char *buf, size_t buf_size);
 
 #endif
