@@ -12,13 +12,25 @@
 
 #include "get_next_line.h"
 
-
-
 char	*get_next_line(int fd)
 {
-    static char *s_buf;
-    char        *buf;
+	char			*buf;
+	char			*ret;
+	static int		fd_table[1024];
+	size_t			buf_size;
 
-    
-
+	buf_size = 1024;
+	if (buf_size > BUFFER_SIZE)
+		buf_size = BUFFER_SIZE;
+	ret = 0;
+	buf = (char *)ft_calloc_gnl((buf_size + 1), sizeof(char));
+	if (!buf)
+		return (0);
+	fd_table[fd] = make_ret_gnl(fd, &ret, buf, buf_size);
+	free(buf);
+	if (fd_table[fd] == -1)
+		return (0);
+	if (!ret)
+		return (0);
+	return (ret);
 }

@@ -20,5 +20,7 @@
 # include <stdint.h>
 
 char	*get_next_line(int fd);
+void	*ft_calloc_gnl(size_t num_elem, size_t elem_size);
+int		make_ret_gnl(int fd, char **ret, char *buf, size_t buf_size);
 
 #endif
