@@ -12,6 +12,34 @@
 
 #include "get_next_line.h"
 
+void	ft_bzero(void *str, size_t len)
+{
+	size_t	i;
+
+	i = 0;
+	while (i < len)
+	{
+		*(char *)str = 0;
+		str++;
+		i++;
+	}
+}
+
+void	*ft_memcpy(void *dest, const void *src, size_t len)
+{
+	size_t	i;
+
+	i = 0;
+	if (dest == 0 && src == 0)
+		return (0);
+	while (i < len)
+	{
+		*(char *)(dest + i) = *(char *)(src + i);
+		i++;
+	}
+	return (dest);
+}
+
 size_t	ft_strlen(const char *str)
 {
 	size_t	i;
