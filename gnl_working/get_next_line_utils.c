@@ -12,6 +12,16 @@
 
 #include "get_next_line.h"
 
+size_t	ft_strlen(const char *str)
+{
+	size_t	i;
+
+	i = 0;
+	while (str[i] != '\0')
+		i++;
+	return (i);
+}
+
 char	*ft_strjoin(char const *s1, char const *s2)
 {
 	char	*ptr;
@@ -29,16 +39,6 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	ft_memcpy(ptr, (char *)s1, s1_len);
 	ft_memcpy((ptr + s1_len), (char *)s2, s2_len);
 	return (ptr);
-}
-
-size_t	ft_strlen(const char *str)
-{
-	size_t	i;
-
-	i = 0;
-	while (str[i] != '\0')
-		i++;
-	return (i);
 }
 
 char	*ft_strdup(const char *src)
