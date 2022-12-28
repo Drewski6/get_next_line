@@ -1,0 +1,712 @@
+Reading symbols from gnl_test...
+Temporary breakpoint 1 at 0x11f5: file gnl_test.c, line 16.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at gnl_test.c:16
+
+Program received signal SIGSEGV, Segmentation fault.
+0x000055555555566d in ft_strlen (str=0x0) at ../gnl_working/get_next_line_utils.c:65
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+The program is not being run.
+Reading symbols from gnl_test...
+Temporary breakpoint 1 at 0x11f5: file gnl_test.c, line 16.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at gnl_test.c:16
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:141
+nl_loc (str=0x0) at ../gnl_working/get_next_line.c:27
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:147
+ft_strjoin (s1=0x0, s2=0x5555555592a0 "This is a sample text.\nHere I will write s") at ../gnl_working/get_next_line_utils.c:82
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:153
+ft_strjoin (s1=0x0, s2=0x5555555592a0 "ome shit\nabout my program....\n\nlolol ok do") at ../gnl_working/get_next_line_utils.c:82
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:153
+ft_strjoin (s1=0x0, s2=0x5555555592a0 "ne.\n\n\n\n\n\nemply lines\n") at ../gnl_working/get_next_line_utils.c:82
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:153
+nl_loc (str=0x0) at ../gnl_working/get_next_line.c:27
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:147
+__GI___libc_read (fd=3, buf=0x5555555592a0, nbytes=42) at ../sysdeps/unix/sysv/linux/read.c:25
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:149
+$1 = 0
+$2 = 0x5555555592a0 "ne.\n\n\n\n\n\nemply lines\n"
+ret_str_build (s_buf=0x0) at ../gnl_working/get_next_line.c:80
+ft_strlen (str=0x0) at ../gnl_working/get_next_line_utils.c:64
+
+Program received signal SIGSEGV, Segmentation fault.
+0x000055555555566d in ft_strlen (str=0x0) at ../gnl_working/get_next_line_utils.c:65
+$3 = 0
+$4 = 0x0
+Reading symbols from gnl_test...
+Temporary breakpoint 1 at 0x11f5: file gnl_test.c, line 16.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at gnl_test.c:16
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:141
+$1 = 0x5555555592a0 ""
+$2 = 0x5555555592a0 "This is a sample text.\nHere I will write s"
+$3 = 0x5555555592a0 "This is a sample text.\nHere I will write s"
+$4 = 0x0
+$5 = 0x5555555592a0 "This is a sample text.\nHere I will write s"
+$6 = 0x0
+Reading symbols from gnl_test...
+Temporary breakpoint 1 at 0x11f5: file gnl_test.c, line 16.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at gnl_test.c:16
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:141
+ft_strjoin (s1=0x0, s2=0x5555555592a0 "This is a sample text.\nHere I will write s") at ../gnl_working/get_next_line_utils.c:82
+$1 = 0x0
+$2 = 0x5555555592a0 "This is a sample text.\nHere I will write s"
+Reading symbols from gnl_test...
+Temporary breakpoint 1 at 0x11f5: file gnl_test.c, line 16.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at gnl_test.c:16
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:141
+ft_strjoin_mod (s1=0x0, s2=0x5555555592a0 "This is a sample text.\nHere I will write s") at ../gnl_working/get_next_line_utils.c:83
+
+Program received signal SIGSEGV, Segmentation fault.
+0x000055555555566d in ft_strlen (str=0x0) at ../gnl_working/get_next_line_utils.c:65
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+Reading symbols from gnl_test...
+Temporary breakpoint 1 at 0x11f5: file gnl_test.c, line 16.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at gnl_test.c:16
+
+Program received signal SIGSEGV, Segmentation fault.
+0x000055555555566d in ft_strlen (str=0x0) at ../gnl_working/get_next_line_utils.c:65
+warning: Source file is more recent than executable.
+Reading symbols from gnl_test...
+
+warning: Source file is more recent than executable.
+Temporary breakpoint 1 at 0x11f5: file gnl_test.c, line 16.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at gnl_test.c:16
+
+Program received signal SIGSEGV, Segmentation fault.
+0x000055555555566d in ft_strlen (str=0x0) at ../gnl_working/get_next_line_utils.c:65
+warning: Source file is more recent than executable.
+Reading symbols from gnl_test...
+
+warning: Source file is more recent than executable.
+Reading symbols from gnl_test...
+Temporary breakpoint 1 at 0x11f5: file gnl_test.c, line 16.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at gnl_test.c:16
+$1 = 0x0
+Reading symbols from gnl_test...
+Temporary breakpoint 1 at 0x11f5: file gnl_test.c, line 16.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at gnl_test.c:16
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:141
+$1 = 0x5555555592a0 "This is a sample text.\nHere I will write s"
+$2 = 0x5555555592a0 "This is a sample text.\nHere I will write s"
+No symbol "s_bu" in current context.
+$3 = 0x0
+$4 = 0x5555555592a0 "ome shit\nabout my program....\n\nlolol ok do"
+Reading symbols from gnl_test...
+Temporary breakpoint 1 at 0x11f5: file gnl_test.c, line 16.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at gnl_test.c:16
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:141
+ft_strjoin (s1=0x0, s2=0x5555555592a0 "This is a sample text.\nHere I will write s") at ../gnl_working/get_next_line_utils.c:82
+Reading symbols from gnl_test...
+Temporary breakpoint 1 at 0x11f5: file gnl_test.c, line 16.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at gnl_test.c:16
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:141
+$1 = 0x5555555592a0 "This is a sample text.\nHere I will write s"
+$2 = 0x0
+ft_strjoin (s1=0x0, s2=0x5555555592a0 "This is a sample text.\nHere I will write s") at ../gnl_working/get_next_line_utils.c:82
+$3 = 0
+$4 = 42
+$5 = 0x5555555592e0 ""
+$6 = 0x5555555592e0 ""
+$7 = 0x5555555592e0 "This is a sample text.\nHere I will write s"
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:153
+$8 = 0x0
+$9 = 0x5555555592e0 "This is a sample text.\nHere I will write s"
+$10 = 0x5555555592a0 "This is a sample text.\nHere I will write s"
+$11 = 0x5555555592a0 "YUUU\005"
+$12 = 42
+ret_str_build (s_buf=0x5555555592e0 "This is a sample text.\nHere I will write s") at ../gnl_working/get_next_line.c:80
+$13 = 42
+$14 = 0x5555555592e0 "This is a sample text.\nHere I will write s"
+$15 = 22
+str_trim (s_buf=0x5555555592e0 "This is a sample text.\nHere I will write s", len=22) at ../gnl_working/get_next_line.c:50
+$16 = 22
+$17 = 0x555555559320 ""
+$18 = 0x555555559320 "This is"
+$19 = 0x555555559320 "This is a sample text"
+$20 = 0x555555559320 "This is a sample text."
+Reading symbols from gnl_test...
+Temporary breakpoint 1 at 0x11f5: file gnl_test.c, line 16.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at gnl_test.c:16
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:141
+ft_strjoin (s1=0x0, s2=0x5555555592a0 "This is a sample text.\nHere I will write s") at ../gnl_working/get_next_line_utils.c:82
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:153
+ret_str_build (s_buf=0x5555555592e0 "This is a sample text.\nHere I will write s") at ../gnl_working/get_next_line.c:80
+ft_strlen (str=0x5555555592e0 "This is a sample text.\nHere I will write s") at ../gnl_working/get_next_line_utils.c:64
+$1 = 34
+ret_str_build (s_buf=0x5555555592e0 "This is a sample text.\nHere I will write s") at ../gnl_working/get_next_line.c:81
+$2 = 42
+$3 = 22
+str_trim (s_buf=0x5555555592e0 "This is a sample text.\nHere I will write s", len=22) at ../gnl_working/get_next_line.c:50
+$4 = 0x555555559320 "This is a sample"
+$5 = 0x5555555592e0 "This is a sample text.\nHere I will write s"
+$6 = 23
+$7 = 72 'H'
+$8 = 23
+ret_str_build (s_buf=0x5555555592e0 "This is a sample text.\nHere I will write s") at ../gnl_working/get_next_line.c:90
+$9 = 0x555555559320 "This is a sample text.\n"
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:159
+$10 = 0x5555555592e0 "This is a sample text.\nHere I will write s"
+$11 = 0x555555559320 "This is a sample text.\n"
+clean_s_buf (s_buf=0x5555555592e0 "This is a sample text.\nHere I will write s") at ../gnl_working/get_next_line.c:108
+$12 = 22
+$13 = 42
+$14 = 0x555555559340 "\nHere I will write s"
+Reading symbols from gnl_test...
+Remote debugging using | /usr/bin/vgdb --pid=172143
+relaying data between gdb and process 172143
+warning: remote target does not support file transfer, attempting to access files from local filesystem.
+Reading symbols from /lib64/ld-linux-x86-64.so.2...
+Reading symbols from /usr/lib/debug/.build-id/61/ef896a699bb1c2e4e231642b2e1688b2f1a61e.debug...
+0x00000000040202b0 in _start () from /lib64/ld-linux-x86-64.so.2
+The "remote" target does not support "run".  Try "help target" or "continue".
+Continuing.
+[Inferior 1 (Remote target) exited normally]
+The program is not being run.
+The program is not being run.
+Reading symbols from gnl_test...
+Remote debugging using | /usr/bin/vgdb --pid=172443
+relaying data between gdb and process 172443
+warning: remote target does not support file transfer, attempting to access files from local filesystem.
+Reading symbols from /lib64/ld-linux-x86-64.so.2...
+Reading symbols from /usr/lib/debug/.build-id/61/ef896a699bb1c2e4e231642b2e1688b2f1a61e.debug...
+0x00000000040202b0 in _start () from /lib64/ld-linux-x86-64.so.2
+Breakpoint 1 at 0x1091f5: file gnl_test.c, line 16.
+Continuing.
+
+Breakpoint 1, main () at gnl_test.c:16
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:141
+main () at gnl_test.c:25
+$1 = 0x0
+$2 = 13
+__libc_start_call_main (main=main@entry=0x1091e9 <main>, argc=argc@entry=1, argv=argv@entry=0x1ffefffb78) at ../sysdeps/nptl/libc_start_call_main.h:74
+[Inferior 1 (Remote target) exited normally]
+Reading symbols from gnl_test...
+Temporary breakpoint 1 at 0x11f5: file gnl_test.c, line 16.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at gnl_test.c:16
+Continuing.
+[Inferior 1 (process 172959) exited normally]
+The program is not being run.
+The program is not being run.
+The program is not being run.
+The program is not being run.
+The program is not being run.
+The program is not being run.
+Reading symbols from gnl_test...
+Temporary breakpoint 1 at 0x11f5: file gnl_test.c, line 16.
+Starting program: /home/drew/Documents/ecole_42/get_next_line/gnl_testing/gnl_test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main () at gnl_test.c:16
+$1 = 0x555555559320 "\n"
+$2 = 9
+$3 = 16
+$4 = 0x0
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:141
+$5 = 0x0
+$6 = 0x5555555592e0 "\371", <incomplete sequence \307>
+$7 = 0x5555555592e0 "\371", <incomplete sequence \307>
+Undefined command: "pritn".  Try "help".
+$8 = 0x0
+$9 = 0x5555555592e0 "\371", <incomplete sequence \307>
+$10 = {int (char *)} 0x555555555271 <nl_loc>
+$11 = 0x0
+$12 = 0x5555555592e0 "\371", <incomplete sequence \307>
+$13 = 0
+$14 = 0x0
+$15 = 0x0
+Reading symbols from gnl_test...
+Remote debugging using | /usr/bin/vgdb --pid=185900
+relaying data between gdb and process 185900
+warning: remote target does not support file transfer, attempting to access files from local filesystem.
+Reading symbols from /lib64/ld-linux-x86-64.so.2...
+Reading symbols from /usr/lib/debug/.build-id/61/ef896a699bb1c2e4e231642b2e1688b2f1a61e.debug...
+0x00000000040202b0 in _start () from /lib64/ld-linux-x86-64.so.2
+Breakpoint 1 at 0x1091f5: file gnl_test.c, line 16.
+Continuing.
+
+Breakpoint 1, main () at gnl_test.c:16
+<empty string> can match help v.set v.info v.wait v.kill v.translate v.do v.clo
+<empty string> can match help get_vbits leak_check make_memory check_memory block_list who_points_at xb xtmemory
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:141
+main () at gnl_test.c:25
+==185900== 20 bytes in 1 blocks are still reachable in loss record 1 of 2
+==185900==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==185900==    by 0x10979C: ft_strdup (get_next_line_utils.c:109)
+==185900==    by 0x1094B7: clean_s_buf (get_next_line.c:120)
+==185900==    by 0x1095B2: get_next_line (get_next_line.c:159)
+==185900==    by 0x109223: main (gnl_test.c:24)
+==185900== 
+==185900== 24 bytes in 1 blocks are still reachable in loss record 2 of 2
+==185900==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==185900==    by 0x109308: str_trim (get_next_line.c:51)
+==185900==    by 0x109427: ret_str_build (get_next_line.c:89)
+==185900==    by 0x10959F: get_next_line (get_next_line.c:158)
+==185900==    by 0x109223: main (gnl_test.c:24)
+==185900== 
+==185900== 20 bytes in 1 blocks are definitely lost in loss record 1 of 4
+==185900==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==185900==    by 0x10979C: ft_strdup (get_next_line_utils.c:109)
+==185900==    by 0x1094B7: clean_s_buf (get_next_line.c:120)
+==185900==    by 0x1095B2: get_next_line (get_next_line.c:159)
+==185900==    by 0x109223: main (gnl_test.c:24)
+==185900== 
+==185900== 29 bytes in 1 blocks are still reachable in loss record 2 of 4
+==185900==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==185900==    by 0x109308: str_trim (get_next_line.c:51)
+==185900==    by 0x109427: ret_str_build (get_next_line.c:89)
+==185900==    by 0x10959F: get_next_line (get_next_line.c:158)
+==185900==    by 0x109223: main (gnl_test.c:24)
+==185900== 
+==185900== 34 bytes in 1 blocks are still reachable in loss record 3 of 4
+==185900==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==185900==    by 0x10979C: ft_strdup (get_next_line_utils.c:109)
+==185900==    by 0x1094B7: clean_s_buf (get_next_line.c:120)
+==185900==    by 0x1095B2: get_next_line (get_next_line.c:159)
+==185900==    by 0x109223: main (gnl_test.c:24)
+==185900== 
+==185900== 1,024 bytes in 1 blocks are still reachable in loss record 4 of 4
+==185900==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==185900==    by 0x48ECC23: _IO_file_doallocate (filedoalloc.c:101)
+==185900==    by 0x48FBD5F: _IO_doallocbuf (genops.c:347)
+==185900==    by 0x48FAFDF: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:744)
+==185900==    by 0x48F9754: _IO_new_file_xsputn (fileops.c:1243)
+==185900==    by 0x48F9754: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1196)
+==185900==    by 0x48E508B: outstring_func (vfprintf-internal.c:239)
+==185900==    by 0x48E508B: __vfprintf_internal (vfprintf-internal.c:1517)
+==185900==    by 0x48CE81E: printf (printf.c:33)
+==185900==    by 0x109249: main (gnl_test.c:26)
+==185900== 
+==185900== 20 bytes in 1 blocks are definitely lost in loss record 1 of 4
+==185900==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==185900==    by 0x10979C: ft_strdup (get_next_line_utils.c:109)
+==185900==    by 0x1094B7: clean_s_buf (get_next_line.c:120)
+==185900==    by 0x1095B2: get_next_line (get_next_line.c:159)
+==185900==    by 0x109223: main (gnl_test.c:24)
+==185900== 
+==185900== 29 bytes in 1 blocks are still reachable in loss record 2 of 4
+==185900==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==185900==    by 0x109308: str_trim (get_next_line.c:51)
+==185900==    by 0x109427: ret_str_build (get_next_line.c:89)
+==185900==    by 0x10959F: get_next_line (get_next_line.c:158)
+==185900==    by 0x109223: main (gnl_test.c:24)
+==185900== 
+==185900== 34 bytes in 1 blocks are still reachable in loss record 3 of 4
+==185900==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==185900==    by 0x10979C: ft_strdup (get_next_line_utils.c:109)
+==185900==    by 0x1094B7: clean_s_buf (get_next_line.c:120)
+==185900==    by 0x1095B2: get_next_line (get_next_line.c:159)
+==185900==    by 0x109223: main (gnl_test.c:24)
+==185900== 
+==185900== 1,024 bytes in 1 blocks are still reachable in loss record 4 of 4
+==185900==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==185900==    by 0x48ECC23: _IO_file_doallocate (filedoalloc.c:101)
+==185900==    by 0x48FBD5F: _IO_doallocbuf (genops.c:347)
+==185900==    by 0x48FAFDF: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:744)
+==185900==    by 0x48F9754: _IO_new_file_xsputn (fileops.c:1243)
+==185900==    by 0x48F9754: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1196)
+==185900==    by 0x48E508B: outstring_func (vfprintf-internal.c:239)
+==185900==    by 0x48E508B: __vfprintf_internal (vfprintf-internal.c:1517)
+==185900==    by 0x48CE81E: printf (printf.c:33)
+==185900==    by 0x109249: main (gnl_test.c:26)
+==185900== 
+==185900== 13 bytes in 1 blocks are still reachable in loss record 1 of 4
+==185900==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==185900==    by 0x10979C: ft_strdup (get_next_line_utils.c:109)
+==185900==    by 0x1094B7: clean_s_buf (get_next_line.c:120)
+==185900==    by 0x1095B2: get_next_line (get_next_line.c:159)
+==185900==    by 0x109223: main (gnl_test.c:24)
+==185900== 
+==185900== 20 bytes in 1 blocks are definitely lost in loss record 2 of 4
+==185900==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==185900==    by 0x10979C: ft_strdup (get_next_line_utils.c:109)
+==185900==    by 0x1094B7: clean_s_buf (get_next_line.c:120)
+==185900==    by 0x1095B2: get_next_line (get_next_line.c:159)
+==185900==    by 0x109223: main (gnl_test.c:24)
+==185900== 
+==185900== 22 bytes in 1 blocks are still reachable in loss record 3 of 4
+==185900==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==185900==    by 0x109308: str_trim (get_next_line.c:51)
+==185900==    by 0x109427: ret_str_build (get_next_line.c:89)
+==185900==    by 0x10959F: get_next_line (get_next_line.c:158)
+==185900==    by 0x109223: main (gnl_test.c:24)
+==185900== 
+==185900== 1,024 bytes in 1 blocks are still reachable in loss record 4 of 4
+==185900==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==185900==    by 0x48ECC23: _IO_file_doallocate (filedoalloc.c:101)
+==185900==    by 0x48FBD5F: _IO_doallocbuf (genops.c:347)
+==185900==    by 0x48FAFDF: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:744)
+==185900==    by 0x48F9754: _IO_new_file_xsputn (fileops.c:1243)
+==185900==    by 0x48F9754: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1196)
+==185900==    by 0x48E508B: outstring_func (vfprintf-internal.c:239)
+==185900==    by 0x48E508B: __vfprintf_internal (vfprintf-internal.c:1517)
+==185900==    by 0x48CE81E: printf (printf.c:33)
+==185900==    by 0x109249: main (gnl_test.c:26)
+==185900== 
+Reading symbols from gnl_test...
+Remote debugging using | /usr/bin/vgdb --pid=190519
+relaying data between gdb and process 190519
+warning: remote target does not support file transfer, attempting to access files from local filesystem.
+Reading symbols from /lib64/ld-linux-x86-64.so.2...
+Reading symbols from /usr/lib/debug/.build-id/61/ef896a699bb1c2e4e231642b2e1688b2f1a61e.debug...
+0x00000000040202b0 in _start () from /lib64/ld-linux-x86-64.so.2
+Breakpoint 1 at 0x1091f5: file gnl_test.c, line 16.
+Continuing.
+
+Breakpoint 1, main () at gnl_test.c:16
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:141
+==190519== 43 bytes in 1 blocks are still reachable in loss record 1 of 1
+==190519==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==190519==    by 0x1094F6: get_next_line (get_next_line.c:143)
+==190519==    by 0x109223: main (gnl_test.c:24)
+==190519== 
+$1 = 0x0
+$2 = 0x4a99040 "This is a sample text.\nHere I will write s"
+ft_strjoin (s1=0x0, s2=0x4a99040 "This is a sample text.\nHere I will write s") at ../gnl_working/get_next_line_utils.c:82
+$3 = 0x0
+==190519== 43 bytes in 1 blocks are still reachable in loss record 1 of 1
+==190519==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==190519==    by 0x1094F6: get_next_line (get_next_line.c:143)
+==190519==    by 0x109223: main (gnl_test.c:24)
+==190519== 
+$4 = 0x4a990b0 ""
+==190519== 43 bytes in 1 blocks are still reachable in loss record 1 of 2
+==190519==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==190519==    by 0x1094F6: get_next_line (get_next_line.c:143)
+==190519==    by 0x109223: main (gnl_test.c:24)
+==190519== 
+==190519== 43 bytes in 1 blocks are still reachable in loss record 2 of 2
+==190519==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==190519==    by 0x1096F8: ft_strjoin (get_next_line_utils.c:86)
+==190519==    by 0x109559: get_next_line (get_next_line.c:153)
+==190519==    by 0x109223: main (gnl_test.c:24)
+==190519== 
+$5 = 0
+$6 = 42
+$7 = 0x4a990b0 ""
+Argument required (starting display address).
+0x4a990b0:	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'
+0x4a990b8:	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'
+0x4a990c0:	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'
+0x4a990c8:	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'
+0x4a990d0:	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'
+0x4a990d8:	0 '\000'	0 '\000'	0 '\000'
+$8 = 0x4a990b0 ""
+0x4a990b0:	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'
+0x4a990b8:	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'
+0x4a990c0:	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'
+0x4a990c8:	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'
+0x4a990d0:	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'
+0x4a990d8:	0 '\000'	0 '\000'	0 '\000'
+0x4a990b0:	84 'T'	104 'h'	105 'i'	115 's'	32 ' '	105 'i'	115 's'	32 ' '
+0x4a990b8:	97 'a'	32 ' '	115 's'	97 'a'	109 'm'	112 'p'	108 'l'	101 'e'
+0x4a990c0:	32 ' '	116 't'	101 'e'	120 'x'	116 't'	46 '.'	10 '\n'	72 'H'
+0x4a990c8:	101 'e'	114 'r'	101 'e'	32 ' '	73 'I'	32 ' '	119 'w'	105 'i'
+0x4a990d0:	108 'l'	108 'l'	32 ' '	119 'w'	114 'r'	105 'i'	116 't'	101 'e'
+0x4a990d8:	32 ' '	115 's'	0 '\000'
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:153
+==190519== 43 bytes in 1 blocks are still reachable in loss record 1 of 2
+==190519==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==190519==    by 0x1094F6: get_next_line (get_next_line.c:143)
+==190519==    by 0x109223: main (gnl_test.c:24)
+==190519== 
+==190519== 43 bytes in 1 blocks are still reachable in loss record 2 of 2
+==190519==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==190519==    by 0x1096F8: ft_strjoin (get_next_line_utils.c:86)
+==190519==    by 0x109559: get_next_line (get_next_line.c:153)
+==190519==    by 0x109223: main (gnl_test.c:24)
+==190519== 
+==190519== 43 bytes in 1 blocks are still reachable in loss record 2 of 2
+==190519==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==190519==    by 0x1096F8: ft_strjoin (get_next_line_utils.c:86)
+==190519==    by 0x109559: get_next_line (get_next_line.c:153)
+==190519==    by 0x109223: main (gnl_test.c:24)
+==190519== 
+ret_str_build (s_buf=0x4a990b0 "This is a sample text.\nHere I will write s") at ../gnl_working/get_next_line.c:80
+$9 = 42
+$10 = 22
+str_trim (s_buf=0x4a990b0 "This is a sample text.\nHere I will write s", len=22) at ../gnl_working/get_next_line.c:50
+==190519== 24 bytes in 1 blocks are still reachable in loss record 1 of 2
+==190519==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==190519==    by 0x109308: str_trim (get_next_line.c:51)
+==190519==    by 0x109427: ret_str_build (get_next_line.c:89)
+==190519==    by 0x10959F: get_next_line (get_next_line.c:158)
+==190519==    by 0x109223: main (gnl_test.c:24)
+==190519== 
+==190519== 43 bytes in 1 blocks are still reachable in loss record 2 of 2
+==190519==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==190519==    by 0x1096F8: ft_strjoin (get_next_line_utils.c:86)
+==190519==    by 0x109559: get_next_line (get_next_line.c:153)
+==190519==    by 0x109223: main (gnl_test.c:24)
+==190519== 
+$11 = 22
+ret_str_build (s_buf=0x4a990b0 "This is a sample text.\nHere I will write s") at ../gnl_working/get_next_line.c:90
+$12 = 0x4a99120 "This is a sample text.\n"
+==190519== 24 bytes in 1 blocks are still reachable in loss record 1 of 2
+==190519==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==190519==    by 0x109308: str_trim (get_next_line.c:51)
+==190519==    by 0x109427: ret_str_build (get_next_line.c:89)
+==190519==    by 0x10959F: get_next_line (get_next_line.c:158)
+==190519==    by 0x109223: main (gnl_test.c:24)
+==190519== 
+==190519== 43 bytes in 1 blocks are still reachable in loss record 2 of 2
+==190519==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==190519==    by 0x1096F8: ft_strjoin (get_next_line_utils.c:86)
+==190519==    by 0x109559: get_next_line (get_next_line.c:153)
+==190519==    by 0x109223: main (gnl_test.c:24)
+==190519== 
+$13 = 0x4a99120 "This is a sample text.\n"
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:159
+clean_s_buf (s_buf=0x4a990b0 "This is a sample text.\nHere I will write s") at ../gnl_working/get_next_line.c:108
+$14 = 22
+$15 = 42
+==190519== 24 bytes in 1 blocks are still reachable in loss record 1 of 2
+==190519==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==190519==    by 0x109308: str_trim (get_next_line.c:51)
+==190519==    by 0x109427: ret_str_build (get_next_line.c:89)
+==190519==    by 0x10959F: get_next_line (get_next_line.c:158)
+==190519==    by 0x109223: main (gnl_test.c:24)
+==190519== 
+==190519== 43 bytes in 1 blocks are still reachable in loss record 2 of 2
+==190519==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==190519==    by 0x1096F8: ft_strjoin (get_next_line_utils.c:86)
+==190519==    by 0x109559: get_next_line (get_next_line.c:153)
+==190519==    by 0x109223: main (gnl_test.c:24)
+==190519== 
+ft_strdup (src=0x4a990c7 "Here I will write s") at ../gnl_working/get_next_line_utils.c:107
+$16 = 0x4a990c7 "Here I will write s"
+0x4a990c7:	72 'H'	101 'e'	114 'r'	101 'e'	32 ' '	73 'I'	32 ' '	119 'w'
+0x4a990cf:	105 'i'	108 'l'	108 'l'	32 ' '	119 'w'	114 'r'	105 'i'	116 't'
+0x4a990d7:	101 'e'	32 ' '	115 's'	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'
+0x4a990df:	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'
+0x4a990e7:	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'
+0x4a990ef:	0 '\000'	0 '\000'	0 '\000'
+$17 = 19
+$18 = 0x4a99180 "Here I will write s"
+clean_s_buf (s_buf=0x4a990b0 "This is a sample text.\nHere I will write s") at ../gnl_working/get_next_line.c:121
+$19 = 0x4a990b0 "This is a sample text.\nHere I will write s"
+$20 = 0x4a99180 "Here I will write s"
+==190519== 20 bytes in 1 blocks are still reachable in loss record 2 of 3
+==190519==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==190519==    by 0x10979C: ft_strdup (get_next_line_utils.c:109)
+==190519==    by 0x1094B7: clean_s_buf (get_next_line.c:120)
+==190519==    by 0x1095B2: get_next_line (get_next_line.c:159)
+==190519==    by 0x109223: main (gnl_test.c:24)
+==190519== 
+==190519== 24 bytes in 1 blocks are still reachable in loss record 3 of 3
+==190519==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==190519==    by 0x109308: str_trim (get_next_line.c:51)
+==190519==    by 0x109427: ret_str_build (get_next_line.c:89)
+==190519==    by 0x10959F: get_next_line (get_next_line.c:158)
+==190519==    by 0x109223: main (gnl_test.c:24)
+==190519== 
+==190519== 20 bytes in 1 blocks are still reachable in loss record 1 of 2
+==190519==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==190519==    by 0x10979C: ft_strdup (get_next_line_utils.c:109)
+==190519==    by 0x1094B7: clean_s_buf (get_next_line.c:120)
+==190519==    by 0x1095B2: get_next_line (get_next_line.c:159)
+==190519==    by 0x109223: main (gnl_test.c:24)
+==190519== 
+==190519== 24 bytes in 1 blocks are still reachable in loss record 2 of 2
+==190519==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==190519==    by 0x109308: str_trim (get_next_line.c:51)
+==190519==    by 0x109427: ret_str_build (get_next_line.c:89)
+==190519==    by 0x10959F: get_next_line (get_next_line.c:158)
+==190519==    by 0x109223: main (gnl_test.c:24)
+==190519== 
+$21 = 0x4a99180 "Here I will write s"
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:159
+$22 = 0x4a99120 "This is a sample text.\n"
+$23 = 0x4a99120 "This is a sample text.\n"
+$24 = 0x4a990b0 "This is a sample text.\nHere I will write s"
+$25 = 0x4a99180 "Here I will write s"
+main () at gnl_test.c:25
+$26 = 0x4a99120 "This is a sample text.\n"
+==190519== 20 bytes in 1 blocks are still reachable in loss record 2 of 3
+==190519==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==190519==    by 0x10979C: ft_strdup (get_next_line_utils.c:109)
+==190519==    by 0x1094B7: clean_s_buf (get_next_line.c:120)
+==190519==    by 0x1095B2: get_next_line (get_next_line.c:159)
+==190519==    by 0x109223: main (gnl_test.c:24)
+==190519== 
+==190519== 1,024 bytes in 1 blocks are still reachable in loss record 3 of 3
+==190519==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==190519==    by 0x48ECC23: _IO_file_doallocate (filedoalloc.c:101)
+==190519==    by 0x48FBD5F: _IO_doallocbuf (genops.c:347)
+==190519==    by 0x48FAFDF: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:744)
+==190519==    by 0x48F9754: _IO_new_file_xsputn (fileops.c:1243)
+==190519==    by 0x48F9754: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1196)
+==190519==    by 0x48E508B: outstring_func (vfprintf-internal.c:239)
+==190519==    by 0x48E508B: __vfprintf_internal (vfprintf-internal.c:1517)
+==190519==    by 0x48CE81E: printf (printf.c:33)
+==190519==    by 0x109249: main (gnl_test.c:26)
+==190519== 
+$27 = 76467235
+$28 = 75794585
+0x4848899 <_vgr10010ZU_VgSoSynsomalloc_malloc+121>:	-128 '\200'
+==190519== 20 bytes in 1 blocks are still reachable in loss record 1 of 2
+==190519==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==190519==    by 0x10979C: ft_strdup (get_next_line_utils.c:109)
+==190519==    by 0x1094B7: clean_s_buf (get_next_line.c:120)
+==190519==    by 0x1095B2: get_next_line (get_next_line.c:159)
+==190519==    by 0x109223: main (gnl_test.c:24)
+==190519== 
+==190519== 1,024 bytes in 1 blocks are still reachable in loss record 2 of 2
+==190519==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==190519==    by 0x48ECC23: _IO_file_doallocate (filedoalloc.c:101)
+==190519==    by 0x48FBD5F: _IO_doallocbuf (genops.c:347)
+==190519==    by 0x48FAFDF: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:744)
+==190519==    by 0x48F9754: _IO_new_file_xsputn (fileops.c:1243)
+==190519==    by 0x48F9754: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1196)
+==190519==    by 0x48E508B: outstring_func (vfprintf-internal.c:239)
+==190519==    by 0x48E508B: __vfprintf_internal (vfprintf-internal.c:1517)
+==190519==    by 0x48CE81E: printf (printf.c:33)
+==190519==    by 0x109249: main (gnl_test.c:26)
+==190519== 
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:141
+==190519== 20 bytes in 1 blocks are still reachable in loss record 1 of 3
+==190519==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==190519==    by 0x10979C: ft_strdup (get_next_line_utils.c:109)
+==190519==    by 0x1094B7: clean_s_buf (get_next_line.c:120)
+==190519==    by 0x1095B2: get_next_line (get_next_line.c:159)
+==190519==    by 0x109223: main (gnl_test.c:24)
+==190519== 
+==190519== 43 bytes in 1 blocks are still reachable in loss record 2 of 3
+==190519==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==190519==    by 0x1094F6: get_next_line (get_next_line.c:143)
+==190519==    by 0x109223: main (gnl_test.c:24)
+==190519== 
+==190519== 1,024 bytes in 1 blocks are still reachable in loss record 3 of 3
+==190519==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==190519==    by 0x48ECC23: _IO_file_doallocate (filedoalloc.c:101)
+==190519==    by 0x48FBD5F: _IO_doallocbuf (genops.c:347)
+==190519==    by 0x48FAFDF: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:744)
+==190519==    by 0x48F9754: _IO_new_file_xsputn (fileops.c:1243)
+==190519==    by 0x48F9754: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1196)
+==190519==    by 0x48E508B: outstring_func (vfprintf-internal.c:239)
+==190519==    by 0x48E508B: __vfprintf_internal (vfprintf-internal.c:1517)
+==190519==    by 0x48CE81E: printf (printf.c:33)
+==190519==    by 0x109249: main (gnl_test.c:26)
+==190519== 
+$29 = 0x4a99180 "Here I will write s"
+$30 = 0x4a99180 "Here I will write s"
+$31 = 0x4a99620 "ome shit\nabout my program....\n\nlolol ok do"
+ft_strjoin (s1=0x4a99180 "Here I will write s", s2=0x4a99620 "ome shit\nabout my program....\n\nlolol ok do") at ../gnl_working/get_next_line_utils.c:82
+$32 = 19
+$33 = 0x4a99180 "Here I will write s"
+==190519== 20 bytes in 1 blocks are still reachable in loss record 1 of 3
+==190519==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==190519==    by 0x10979C: ft_strdup (get_next_line_utils.c:109)
+==190519==    by 0x1094B7: clean_s_buf (get_next_line.c:120)
+==190519==    by 0x1095B2: get_next_line (get_next_line.c:159)
+==190519==    by 0x109223: main (gnl_test.c:24)
+==190519== 
+==190519== 43 bytes in 1 blocks are still reachable in loss record 2 of 3
+==190519==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==190519==    by 0x1094F6: get_next_line (get_next_line.c:143)
+==190519==    by 0x109223: main (gnl_test.c:24)
+==190519== 
+==190519== 1,024 bytes in 1 blocks are still reachable in loss record 3 of 3
+==190519==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==190519==    by 0x48ECC23: _IO_file_doallocate (filedoalloc.c:101)
+==190519==    by 0x48FBD5F: _IO_doallocbuf (genops.c:347)
+==190519==    by 0x48FAFDF: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:744)
+==190519==    by 0x48F9754: _IO_new_file_xsputn (fileops.c:1243)
+==190519==    by 0x48F9754: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1196)
+==190519==    by 0x48E508B: outstring_func (vfprintf-internal.c:239)
+==190519==    by 0x48E508B: __vfprintf_internal (vfprintf-internal.c:1517)
+==190519==    by 0x48CE81E: printf (printf.c:33)
+==190519==    by 0x109249: main (gnl_test.c:26)
+==190519== 
+$34 = 0x4a99690 ""
+==190519== 20 bytes in 1 blocks are still reachable in loss record 1 of 4
+==190519==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==190519==    by 0x10979C: ft_strdup (get_next_line_utils.c:109)
+==190519==    by 0x1094B7: clean_s_buf (get_next_line.c:120)
+==190519==    by 0x1095B2: get_next_line (get_next_line.c:159)
+==190519==    by 0x109223: main (gnl_test.c:24)
+==190519== 
+==190519== 43 bytes in 1 blocks are still reachable in loss record 2 of 4
+==190519==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==190519==    by 0x1094F6: get_next_line (get_next_line.c:143)
+==190519==    by 0x109223: main (gnl_test.c:24)
+==190519== 
+==190519== 62 bytes in 1 blocks are still reachable in loss record 3 of 4
+==190519==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==190519==    by 0x1096F8: ft_strjoin (get_next_line_utils.c:86)
+==190519==    by 0x109559: get_next_line (get_next_line.c:153)
+==190519==    by 0x109223: main (gnl_test.c:24)
+==190519== 
+==190519== 1,024 bytes in 1 blocks are still reachable in loss record 4 of 4
+==190519==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==190519==    by 0x48ECC23: _IO_file_doallocate (filedoalloc.c:101)
+==190519==    by 0x48FBD5F: _IO_doallocbuf (genops.c:347)
+==190519==    by 0x48FAFDF: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:744)
+==190519==    by 0x48F9754: _IO_new_file_xsputn (fileops.c:1243)
+==190519==    by 0x48F9754: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1196)
+==190519==    by 0x48E508B: outstring_func (vfprintf-internal.c:239)
+==190519==    by 0x48E508B: __vfprintf_internal (vfprintf-internal.c:1517)
+==190519==    by 0x48CE81E: printf (printf.c:33)
+==190519==    by 0x109249: main (gnl_test.c:26)
+==190519== 
+$35 = 0x4a99690 ""
+$36 = 0x4a99690 ""
+$37 = 0x4a99690 "Here I will write s"
+$38 = 0x4a99690 "Here I will write some shit\nabout my program....\n\nlolol ok do"
+get_next_line (fd=3) at ../gnl_working/get_next_line.c:153
+$39 = 0x4a99180 "Here I will write s"
+$40 = 0x4a99690 "Here I will write some shit\nabout my program....\n\nlolol ok do"

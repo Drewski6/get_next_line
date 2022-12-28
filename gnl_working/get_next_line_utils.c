@@ -14,7 +14,8 @@
 
 /*  ft_bzero
  *
- *  sets memory values to 0 for initilization purposes
+ *  Sets memory values to 0 for initilization purposes.
+ *  Returns nothing.
  */
 
 void	ft_bzero(void *str, size_t len)
@@ -32,7 +33,8 @@ void	ft_bzero(void *str, size_t len)
 
 /*  ft_memcpy
  *
- *  copies len number of bytes starting from src to dest
+ *  Copies len number of bytes starting from src to dest
+ *  Returns pointer to destination string.
  */
 
 void	*ft_memcpy(void *dest, const void *src, size_t len)
@@ -52,7 +54,7 @@ void	*ft_memcpy(void *dest, const void *src, size_t len)
 
 /*  ft_strlen
  *
- *  returns number of bytes from str address to next null terminator.
+ *  Returns number of bytes from str address to next null terminator.
  */
 
 size_t	ft_strlen(const char *str)
@@ -60,14 +62,15 @@ size_t	ft_strlen(const char *str)
 	size_t	i;
 
 	i = 0;
-	while (str[i] != '\0')
+	while (str && str[i])
 		i++;
 	return (i);
 }
 
 /*  ft_strjoin
  *
- *  returns new malloced string 'ptr' that contains s1 followed by s2.
+ *  Joins 2 string together to make a new string.
+ *  Returns new malloced string 'ptr' that contains s1 followed by s2.
  */
 
 char	*ft_strjoin(char const *s1, char const *s2)
@@ -76,33 +79,35 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	size_t	s1_len;
 	size_t	s2_len;
 
-	if (s1 == 0 || s2 == 0)
-		return (0);
 	s1_len = ft_strlen(s1);
 	s2_len = ft_strlen(s2);
+	if (s1_len + s2_len == 0)
+		return (0);
 	ptr = (char *)malloc((s1_len + s2_len + 1) * sizeof(char));
 	if (ptr == 0)
 		return (0);
 	ft_bzero(ptr, (s1_len + s2_len + 1));
 	ft_memcpy(ptr, (char *)s1, s1_len);
 	ft_memcpy((ptr + s1_len), (char *)s2, s2_len);
+	free((char *)s1);
 	return (ptr);
 }
 
 /*  ft_strdup
  *
- *  returns new malloced string that is an exact copy of 'str'.
+ *  Creates a new string that is an exact copy of 'str'.
+ *  Returns new malloced string that is an exact copy of 'str'.
  */
 
 char	*ft_strdup(const char *src)
 {
 	char	*str_ret;
-	int		src_len;
-	int		i;
+	size_t	src_len;
+	size_t	i;
 
 	i = 0;
 	src_len = ft_strlen(src);
-	str_ret = (char *)malloc(src_len * sizeof(char) + 1);
+	str_ret = (char *)malloc((src_len + 1) * sizeof(char));
 	if (!str_ret)
 		return (0);
 	while (src[i])
