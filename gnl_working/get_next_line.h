@@ -17,7 +17,7 @@
 # endif
 # include <stdlib.h>
 # include <unistd.h>
-# include <stdint.h>
+//# include <stdint.h>
 
 char	*get_next_line(int fd);
 void	ft_bzero(void *str, size_t len);
