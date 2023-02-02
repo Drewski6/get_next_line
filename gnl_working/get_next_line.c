@@ -12,7 +12,7 @@
 
 #include "get_next_line.h"
 
-/*  nl_loc (newline locate)
+/*  *** nl_loc (newline locate) ***
  *
  *  Looks for a newline in the string and 
  *  returns a signed int indicating the index in the string where the 
@@ -34,7 +34,7 @@ static int	nl_loc(char *str)
 	return (i);
 }
 
-/*  str_trim (string trim)
+/*  *** str_trim (string trim) ***
  *
  *  str_trim will malloc memory of size 'len' + 2.
  *  Then, copy each character until a newline is found.
@@ -65,7 +65,7 @@ static char	*str_trim(char *s_buf, size_t len)
 	return (ret_s_buf);
 }
 
-/*  ret_str_build (Return String Build)
+/*  *** ret_str_build (Return String Build) ***
  *
  *  Takes the static buffer and cuts off portion after newline to
  *  make malloced string for return.
@@ -90,7 +90,7 @@ static char	*ret_str_build(char *s_buf)
 	return (ret_s_buf);
 }
 
-/*  clean_s_buf (clean static buffer)
+/*  *** clean_s_buf (clean static buffer) ***
  *
  *  After a static buffer has been used to find an entire newline,
  *  clean_s_buf will remove an entire newline from the static buffer
@@ -122,7 +122,7 @@ static char	*clean_s_buf(char *s_buf)
 	return (ret_s_buf);
 }
 
-/*  get_next_line
+/*  *** get_next_line (get next line) ***
  *
  *  Uses static char buffer to keep portion after newline
  *  for next function call if needed.

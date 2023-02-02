@@ -12,7 +12,7 @@
 
 #include "get_next_line.h"
 
-/*  ft_bzero
+/*  *** ft_bzero (42 byte zero) ***
  *
  *  Sets memory values to 0 for initilization purposes.
  *  Returns nothing.
@@ -31,7 +31,7 @@ void	ft_bzero(void *str, size_t len)
 	}
 }
 
-/*  ft_memcpy
+/*  *** ft_memcpy (42 memory copy) ***
  *
  *  Copies len number of bytes starting from src to dest
  *  Returns pointer to destination string.
@@ -52,7 +52,7 @@ void	*ft_memcpy(void *dest, const void *src, size_t len)
 	return (dest);
 }
 
-/*  ft_strlen
+/*  *** ft_strlen (42 string lenght) ***
  *
  *  Returns number of bytes from str address to next null terminator.
  */
@@ -67,7 +67,7 @@ size_t	ft_strlen(const char *str)
 	return (i);
 }
 
-/*  ft_strjoin
+/*  *** ft_strjoin (42 string join) ***
  *
  *  Joins 2 string together to make a new string.
  *  Returns new malloced string 'ptr' that contains s1 followed by s2.
@@ -93,7 +93,7 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	return (ptr);
 }
 
-/*  ft_strdup
+/*  *** ft_strdup (42 string duplicate) ***
  *
  *  Creates a new string that is an exact copy of 'str'.
  *  Returns new malloced string that is an exact copy of 'str'.
